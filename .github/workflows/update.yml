@@ -41,5 +41,6 @@ jobs:
             echo "Cap canvi a l'agenda avui."
           else
             git commit -m "Agenda actualitzada $(date -u +%Y-%m-%d)"
+            git pull --rebase -X theirs origin main
             git push
           fi
