@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Què fem a Mataró</title>
+<meta name="description" content="Tots els plans de Mataró en un sol lloc: teatre, música, festes de barri, biblioteques i activitats per a famílies. En català, castellano, English i français.">
+<meta property="og:title" content="Què fem a Mataró">
+<meta property="og:description" content="Tots els plans de la ciutat en un sol lloc, actualitzat cada dia.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230A5A9C'/%3E%3Ctext x='16' y='23' font-size='18' font-family='Arial' font-weight='bold' fill='%23F2B705' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --ink:#13212E; --muted:#5B6B79; --line:#DCE3E9;
+  --sea:#0A5A9C; --sea-soft:#E3EEF8; --sun:#F2B705; --sun-ink:#4A3600; --free:#1F7A4D; --free-soft:#E2F3EA;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0E1720; --surface:#16222E; --ink:#E8EEF3; --muted:#9BAAB7; --line:#263644;
+  --sea:#6FB2EE; --sea-soft:#1A3348; --sun:#F2B705; --sun-ink:#2A1F00; --free:#6BD3A0; --free-soft:#163327; color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+[hidden]{display:none!important}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{padding-block:28px 18px}
+.toprow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.badge{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;background:var(--sun);color:var(--sun-ink);padding:3px 8px;border-radius:4px}
+.langs{display:flex;gap:4px}
+.langs button{font:600 12px/1 var(--body);letter-spacing:.06em;border:1px solid var(--line);background:var(--surface);color:var(--muted);padding:7px 9px;border-radius:6px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(44px,11vw,88px);line-height:.9;margin:18px 0 8px;letter-spacing:.005em;text-transform:uppercase;text-wrap:balance}
+h1 span{color:var(--sea)}
+.lede{color:var(--muted);max-width:60ch;margin:0}
+.updated{color:var(--muted);font-size:12px;margin:8px 0 0}
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:12px;transition:transform .25s ease}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.frow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.frow + .frow,.more{margin-top:8px}
+.more{display:grid;gap:8px}
+.fbtn,.sheethead,.sheetfoot,.flabel,.backdrop{display:none}
+.fbtn{align-items:center;gap:6px;font:600 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 12px;border-radius:8px;cursor:pointer;flex:none}
+.fbtn svg{width:16px;height:16px;fill:currentColor}
+.fcount{background:var(--sea);color:var(--bg);border-radius:999px;font-size:11px;font-weight:700;min-width:18px;height:18px;line-height:18px;text-align:center;padding:0 5px}
+.segwrap{min-width:0;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.chip,.seg button{white-space:nowrap}
+.shelves{display:grid;gap:22px;margin-top:16px}
+.shelves:empty{display:none}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.shead h2{font:800 24px/1 var(--display);text-transform:uppercase;margin:0}
+.seeall{border:0;background:none;color:var(--sea);font:600 13px var(--body);cursor:pointer;white-space:nowrap;padding:4px 0}
+.strip{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-block:8px 6px;scrollbar-width:none;margin-left:calc(-1 * max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));scroll-padding-left:max(16px,env(safe-area-inset-left,0px))}
+.strip::-webkit-scrollbar{display:none}
+.mini{flex:0 0 min(230px,72vw);scroll-snap-align:start;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:4px;cursor:pointer;color:var(--ink);font:inherit}
+.mini:hover{border-color:var(--sea)}
+.mini .md{font-size:12px;font-weight:700;color:var(--sea);text-transform:uppercase;letter-spacing:.04em}
+.mini h3{font-size:15px;margin:0;line-height:1.25;text-wrap:balance}
+.mini .mv{font-size:12px;color:var(--muted)}
+.mini .price{align-self:flex-start;margin-top:auto}
+.agendaH{font:800 30px/1 var(--display);text-transform:uppercase;margin:6px 0 0}
+.ev.flash{border-color:var(--sea);box-shadow:0 0 0 3px var(--sea-soft)}
+@media (max-width:640px){
+ .frow.top{flex-wrap:nowrap}
+ .segwrap{flex:1;overflow-x:auto;scrollbar-width:none;flex-wrap:nowrap}
+ .segwrap > *{flex:none}
+ .shelves{gap:10px;margin-top:12px}
+ .shelf ~ .shelf{display:none}
+ .shead h2{font-size:21px}
+ .mini{flex-basis:min(200px,62vw);padding:10px}
+ .mini h3{font-size:14px}
+ body.hidebar:not(.sheet) .filters{transform:translateY(calc(-100% - env(safe-area-inset-top,0px)))}
+ body.hidebar .date{top:calc(env(safe-area-inset-top,0px) + 12px)}
+ .segwrap::-webkit-scrollbar{display:none}
+ .seg{flex-wrap:nowrap;width:max-content}
+ .fbtn{display:inline-flex}
+ .more{position:fixed;left:0;right:0;bottom:0;z-index:30;margin:0;background:var(--bg);border-radius:16px 16px 0 0;box-shadow:0 -8px 30px rgba(0,0,0,.25);max-height:82vh;overflow-y:auto;padding:16px max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));gap:10px;transform:translateY(105%);visibility:hidden}
+ body.sheet .more{transform:none;visibility:visible}
+ .sheethead{display:flex;justify-content:space-between;align-items:center;font-size:17px}
+ .sclose{border:0;background:var(--surface);color:var(--ink);width:34px;height:34px;border-radius:17px;font-size:15px;cursor:pointer}
+ .flabel{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+ .more select,.more input[type=search]{flex:1 1 100%;padding:10px 12px;font-size:15px}
+ .sheetfoot{display:flex;gap:10px;position:sticky;bottom:calc(-16px - env(safe-area-inset-bottom,0px));background:var(--bg);padding-block:12px 4px;margin-top:4px}
+ .sclear{flex:none;font:600 14px var(--body);background:none;border:1px solid var(--line);color:var(--ink);padding:12px 14px;border-radius:10px;cursor:pointer}
+ .sshow{flex:1;font:700 15px var(--body);background:var(--sea);color:var(--bg);border:0;padding:12px;border-radius:10px;cursor:pointer}
+ body.sheet .backdrop{display:block;position:fixed;inset:0;z-index:25;background:rgba(10,20,30,.45)}
+ body.sheet{overflow:hidden}
+}
+@media (max-width:640px) and (prefers-reduced-motion:no-preference){.more{transition:transform .25s ease,visibility .25s}}
+.seg{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:3px;gap:2px;flex-wrap:wrap}
+.seg button{font:600 13px var(--body);border:0;background:none;color:var(--muted);padding:6px 10px;border-radius:6px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--sea);color:#fff}
+@media (prefers-color-scheme: dark){.seg button[aria-pressed="true"]{color:#0E1720}}
+.chip{font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 11px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--sea-soft);border-color:var(--sea);color:var(--sea);font-weight:600}
+.chip.free[aria-pressed="true"]{background:var(--free-soft);border-color:var(--free);color:var(--free)}
+.chip.kids[aria-pressed="true"]{background:var(--sun);border-color:var(--sun);color:var(--sun-ink)}
+.chip svg{width:14px;height:14px;vertical-align:-2px;margin-right:4px;fill:currentColor}
+select,input[type=search]{font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 10px;border-radius:8px;min-width:0}
+input[type=search]{flex:1 1 180px}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--sea);outline-offset:2px}
+main{padding-block:8px 40px}
+.count{color:var(--muted);font-size:13px;margin:14px 0 4px}
+.day{display:grid;grid-template-columns:64px 1fr;gap:14px;padding-block:16px;border-bottom:1px solid var(--line)}
+.date{text-align:center;align-self:start;position:sticky;top:calc(env(safe-area-inset-top,0px) + 112px)}
+.date .dw{font:700 11px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--sea)}
+.date .dn{font:800 40px/1 var(--display)}
+.date .dm{font:600 12px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:10px;min-width:0}
+.ev{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.meta{display:flex;gap:6px 12px;flex-wrap:wrap;font-size:13px;color:var(--muted);align-items:center}
+.time{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink)}
+.cat{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--sea)}
+.ev h3{margin:0;font-size:17px;line-height:1.25;font-weight:700;text-wrap:balance}
+.ev p{margin:0;color:var(--ink);opacity:.88;font-size:14px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:2px}
+.price{font-size:12px;font-weight:700;padding:3px 8px;border-radius:4px;background:var(--sea-soft);color:var(--sea)}
+.price.free{background:var(--free-soft);color:var(--free)}
+.price.ask{background:transparent;border:1px dashed var(--line);color:var(--muted);font-weight:600}
+.src{font-size:13px;font-weight:600;color:var(--sea);text-decoration:none;display:inline-flex;gap:4px;align-items:center}
+.src:hover{text-decoration:underline}
+.multi{font-size:12px;color:var(--muted)}
+.pnote{font-size:12px;color:var(--muted);font-weight:600;margin-left:4px}
+.kid{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:var(--sun);color:var(--sun-ink);padding:2px 7px;border-radius:4px}
+.acc{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12px}
+.ai{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:6px;padding:2px 7px;font-weight:600;color:var(--ink)}
+.ai svg{width:15px;height:15px;fill:currentColor}
+.ai.ok{border-color:var(--free);color:var(--free)}
+.accsrc{color:var(--muted);font-size:12px}
+.accsrc a{color:var(--muted)}
+.week{margin-top:28px;display:grid;gap:12px}
+.week:empty{display:none}
+.week h2{font:800 30px/1 var(--display);text-transform:uppercase;margin:0}
+.week > p{margin:0;color:var(--muted);max-width:65ch}
+.wd{display:grid;grid-template-columns:64px 1fr;gap:14px;padding-block:10px;border-top:1px solid var(--line)}
+.wd .wn{font:700 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--sea);padding-top:12px}
+@media (max-width:520px){.wd{grid-template-columns:48px 1fr;gap:10px}}
+.legend{margin-top:28px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px}
+.legend h2{font:800 26px/1 var(--display);text-transform:uppercase;margin:0}
+.legend p{margin:0;max-width:65ch;color:var(--muted)}
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px 16px}
+.lgrid div{display:flex;gap:8px;align-items:center;font-size:13px;min-width:0}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+.cta{margin-top:28px;background:var(--ink);color:var(--bg);border-radius:12px;padding:22px;display:grid;gap:10px}
+.cta h2{font:800 30px/1 var(--display);text-transform:uppercase;margin:0}
+.cta p{margin:0;opacity:.85;max-width:60ch}
+.cta .soon{justify-self:start;font:700 13px var(--body);background:var(--sun);color:var(--sun-ink);padding:9px 14px;border-radius:8px}
+.note{font-size:12px;color:var(--muted);margin-top:18px}
+.note a{color:var(--muted)}
+footer.credit{font-size:12px;color:var(--muted);padding-block:0 32px}
+footer.credit a{color:var(--sea)}
+@media (max-width:520px){.day{grid-template-columns:48px 1fr;gap:10px}.date .dn{font-size:32px}.date{top:calc(env(safe-area-inset-top,0px) + 70px)}}
+@media (prefers-reduced-motion:no-preference){.ev{transition:border-color .15s}.ev:hover{border-color:var(--sea)}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="toprow">
+      <span class="badge" id="badge"></span>
+      <div class="langs" role="group" aria-label="Idioma">
+        <button data-l="ca">CA</button><button data-l="es">ES</button><button data-l="en">EN</button><button data-l="fr">FR</button>
+      </div>
+    </div>
+    <h1 id="h1"></h1>
+    <p class="lede" id="lede"></p>
+    <p class="updated" id="updated"></p>
+  </header>
+</div>
+
+<div class="filters">
+  <div class="wrap">
+    <div class="frow top">
+      <div class="segwrap"><div class="seg" id="when" role="group"></div>
+        <button class="chip free" id="freeBtn" aria-pressed="false"></button>
+        <button class="chip kids" id="kidsBtn" aria-pressed="false"></button>
+        <button class="chip" id="wheelBtn" aria-pressed="false"></button></div>
+      <button class="fbtn" id="filtBtn" aria-expanded="false" aria-controls="more"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3zm4 6h10v2H7zm3 6h4v2h-4z"/></svg><span id="filtLbl"></span><span class="fcount" id="fcount" hidden></span></button>
+    </div>
+    <div class="more" id="more" role="dialog" aria-labelledby="sheetH">
+      <div class="sheethead"><strong id="sheetH"></strong><button class="sclose" id="sheetClose" aria-label="✕">✕</button></div>
+      <div class="flabel" id="catLbl"></div>
+      <div class="frow" id="cats"></div>
+      <div class="flabel" id="whereLbl"></div>
+      <div class="frow">
+        <select id="barri"></select>
+        <input type="search" id="q" autocomplete="off">
+      </div>
+      <div class="sheetfoot"><button class="sclear" id="clearBtn"></button><button class="sshow" id="showBtn"></button></div>
+    </div>
+    <div class="backdrop" id="backdrop"></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <main>
+    <div id="shelves" class="shelves"></div>
+    <div class="count" id="count"></div>
+    <div id="out"></div>
+    <section class="week" id="week"></section>
+    <section class="legend" id="legend"></section>
+    <section class="cta">
+      <h2 id="ctaH"></h2>
+      <p id="ctaP"></p>
+      <span class="soon" id="ctaB"></span>
+    </section>
+    <p class="note" id="note"></p>
+  </main>
+  <footer class="credit" id="credit"></footer>
+</div>
+
+<script>
+const T={
+ ca:{badge:"Beta",h1:'Què fem a <span>Mataró</span>',lede:"Tots els plans de la ciutat en un sol lloc: teatre, música, festes de barri, biblioteques, activitats per a famílies i molt més. Cada esdeveniment enllaça a la font original.",
+  when:{all:"Tot",today:"Avui",weekend:"Cap de setmana",two:"Pròximes 2 setmanes"},free:"Només gratuït",allCats:"Totes",allBarris:"Tots els barris",search:"Cerca…",
+  count:n=>n===1?"1 esdeveniment":n+" esdeveniments",empty:"No hi ha res amb aquests filtres. Prova'n uns altres.",loading:"Carregant l'agenda…",gratis:"Gratuït",ask:"Preu a la font",more:"Més info",until:"fins al",updated:"Actualitzat",
+  ctaH:"Organitzes alguna cosa?",ctaP:"Bars, cafeteries, escoles, associacions i entitats: aviat podreu publicar els vostres esdeveniments aquí en dos minuts, sense registre i de franc.",ctaB:"Formulari molt aviat",
+  note:"Informació recollida d'agendes públiques i actualitzada cada dia. Comprova sempre horaris i preus a la font abans d'anar-hi.",credit:"Un projecte de"},
+ es:{badge:"Beta",h1:'Qué hacemos en <span>Mataró</span>',lede:"Todos los planes de la ciudad en un solo sitio: teatro, música, fiestas de barrio, bibliotecas, actividades en familia y mucho más. Cada evento enlaza a su fuente original.",
+  when:{all:"Todo",today:"Hoy",weekend:"Fin de semana",two:"Próximas 2 semanas"},free:"Solo gratis",allCats:"Todas",allBarris:"Todos los barrios",search:"Buscar…",
+  count:n=>n===1?"1 evento":n+" eventos",empty:"No hay nada con estos filtros. Prueba otros.",loading:"Cargando la agenda…",gratis:"Gratis",ask:"Precio en la fuente",more:"Más info",until:"hasta el",updated:"Actualizado",
+  ctaH:"¿Organizas algo?",ctaP:"Bares, cafeterías, escuelas, asociaciones y entidades: pronto podréis publicar vuestros eventos aquí en dos minutos, sin registro y gratis.",ctaB:"Formulario muy pronto",
+  note:"Información recogida de agendas públicas y actualizada cada día. Comprueba siempre horarios y precios en la fuente antes de ir.",credit:"Un proyecto de"},
+ en:{badge:"Beta",h1:'What’s on in <span>Mataró</span>',lede:"Every plan in town in one place: theatre, music, neighbourhood festivals, libraries, family activities and more. Each event links to its original source.",
+  when:{all:"All",today:"Today",weekend:"This weekend",two:"Next 2 weeks"},free:"Free only",allCats:"All",allBarris:"All neighbourhoods",search:"Search…",
+  count:n=>n===1?"1 event":n+" events",empty:"Nothing matches these filters. Try different ones.",loading:"Loading the agenda…",gratis:"Free",ask:"Price at source",more:"More info",until:"until",updated:"Updated",
+  ctaH:"Organising something?",ctaP:"Bars, cafés, schools, associations and local groups: soon you'll be able to post your events here in two minutes, free and without signing up.",ctaB:"Form coming soon",
+  note:"Collected from public listings and updated daily. Always check times and prices at the source before you go.",credit:"A project by"},
+ fr:{badge:"Bêta",h1:'Que faire à <span>Mataró</span>',lede:"Toutes les sorties de la ville au même endroit : théâtre, musique, fêtes de quartier, bibliothèques, activités en famille et plus encore. Chaque événement renvoie à sa source.",
+  when:{all:"Tout",today:"Aujourd’hui",weekend:"Ce week-end",two:"2 prochaines semaines"},free:"Gratuit seulement",allCats:"Toutes",allBarris:"Tous les quartiers",search:"Rechercher…",
+  count:n=>n===1?"1 événement":n+" événements",empty:"Rien ne correspond à ces filtres. Essayez-en d’autres.",loading:"Chargement de l’agenda…",gratis:"Gratuit",ask:"Prix sur la source",more:"Plus d’infos",until:"jusqu’au",updated:"Mis à jour",
+  ctaH:"Vous organisez quelque chose ?",ctaP:"Bars, cafés, écoles, associations : bientôt vous pourrez publier vos événements ici en deux minutes, gratuitement et sans inscription.",ctaB:"Formulaire bientôt",
+  note:"Informations issues d’agendas publics et mises à jour chaque jour. Vérifiez toujours horaires et prix sur la source avant d’y aller.",credit:"Un projet de"}
+};
+const CATS={musica:{ca:"Música",es:"Música",en:"Music",fr:"Musique"},escena:{ca:"Teatre i escena",es:"Teatro y escena",en:"Theatre & stage",fr:"Théâtre & scène"},
+ familia:{ca:"Famílies",es:"Familias",en:"Families",fr:"Familles"},festa:{ca:"Festes i tradició",es:"Fiestas y tradición",en:"Festivals & tradition",fr:"Fêtes & tradition"},
+ taller:{ca:"Tallers i trobades",es:"Talleres y encuentros",en:"Workshops & meetups",fr:"Ateliers & rencontres"},fira:{ca:"Fires i mercats",es:"Ferias y mercados",en:"Fairs & markets",fr:"Foires & marchés"},
+ cultura:{ca:"Visites i art",es:"Visitas y arte",en:"Tours & art",fr:"Visites & art"},
+ biblio:{ca:"Biblioteques",es:"Bibliotecas",en:"Libraries",fr:"Bibliothèques"}};
+const BARRIS={centre:"Centre – Eixample – Havana",cerda:"Cerdanyola",molins:"Molins – Cirera",boet:"Pla d'en Boet – Peramàs",llantia:"Via Europa – La Llàntia",roca:"Rocafonda – El Palau – Escorxador",pcentral:"Parc Central",diversos:"Diversos"};
+const X={
+ ca:{n:{inv:"amb invitació",youth:"Gratis de 12 a 29 anys",reg:"Cal inscripció"},wkH:"Cada setmana als centres cívics",wkP:"Classes i grups que es repeteixen cada setmana. Moltes les organitzen entitats i poden demanar inscripció: consulta-ho a l'enllaç o al mateix centre.",wkI:"Inscripció: consulta-ho",wkS:"Xarxa d'Equipaments Cívics",kids:"Per a infants",kid:"Infants",wheel:"Accessible amb cadira",via:"Font",
+  f:{wheel:"Espais per a cadira de rodes",wc:"Lavabo adaptat",dog:"Accés amb gos guia",loop:"Bucle magnètic (audiòfons)",lsc:"Interpretació en llengua de signes",ad:"Audiodescripció",sub:"Subtítols",calm:"Funció relaxada"},
+  lh:"Accessibilitat",lp1:"Només mostrem una icona quan l'hem pogut comprovar en una font fiable. Si no hi ha icona, encara no ho sabem: pregunta a l'organitzador abans d'anar-hi.",
+  lp2:"Quan els organitzadors publiquin els seus esdeveniments, el formulari els demanarà què ofereixen. Així cada fitxa podrà dir si hi ha accés en cadira, bucle magnètic, llengua de signes o audiodescripció."},
+ es:{n:{inv:"con invitación",youth:"Gratis de 12 a 29 años",reg:"Requiere inscripción"},wkH:"Cada semana en los centros cívicos",wkP:"Clases y grupos que se repiten cada semana. Muchas las organizan entidades y pueden pedir inscripción: consúltalo en el enlace o en el propio centro.",wkI:"Inscripción: consultar",wkS:"Xarxa d'Equipaments Cívics",kids:"Para niños",kid:"Niños",wheel:"Accesible en silla",via:"Fuente",
+  f:{wheel:"Espacios para silla de ruedas",wc:"Baño adaptado",dog:"Acceso con perro guía",loop:"Bucle magnético (audífonos)",lsc:"Interpretación en lengua de signos",ad:"Audiodescripción",sub:"Subtítulos",calm:"Función relajada"},
+  lh:"Accesibilidad",lp1:"Solo mostramos un icono cuando lo hemos podido comprobar en una fuente fiable. Si no hay icono, aún no lo sabemos: pregunta al organizador antes de ir.",
+  lp2:"Cuando los organizadores publiquen sus eventos, el formulario les preguntará qué ofrecen. Así cada ficha podrá decir si hay acceso en silla, bucle magnético, lengua de signos o audiodescripción."},
+ en:{n:{inv:"invitation needed",youth:"Free for ages 12–29",reg:"Sign-up needed"},wkH:"Every week at the civic centres",wkP:"Classes and groups that meet weekly. Many are run by local associations and may need sign-up: check the link or ask at the centre.",wkI:"Sign-up: check first",wkS:"Xarxa d'Equipaments Cívics",kids:"For kids",kid:"Kids",wheel:"Wheelchair accessible",via:"Source",
+  f:{wheel:"Wheelchair spaces",wc:"Accessible toilet",dog:"Guide dogs welcome",loop:"Hearing loop",lsc:"Sign language interpreting",ad:"Audio description",sub:"Captions / surtitles",calm:"Relaxed performance"},
+  lh:"Accessibility",lp1:"We only show an icon once we've checked it with a reliable source. No icon means we don't know yet: ask the organiser before you go.",
+  lp2:"When organisers post their own events, the form will ask what they offer, so every listing can say whether there's wheelchair access, a hearing loop, sign language or audio description."},
+ fr:{n:{inv:"sur invitation",youth:"Gratuit de 12 à 29 ans",reg:"Inscription requise"},wkH:"Chaque semaine dans les centres civiques",wkP:"Cours et groupes hebdomadaires. Beaucoup sont organisés par des associations et peuvent demander une inscription : vérifiez via le lien ou au centre.",wkI:"Inscription : à vérifier",wkS:"Xarxa d'Equipaments Cívics",kids:"Pour enfants",kid:"Enfants",wheel:"Accessible en fauteuil",via:"Source",
+  f:{wheel:"Places pour fauteuil roulant",wc:"Toilettes adaptées",dog:"Chiens guides acceptés",loop:"Boucle magnétique",lsc:"Interprétation en langue des signes",ad:"Audiodescription",sub:"Sous-titrage",calm:"Représentation relax"},
+  lh:"Accessibilité",lp1:"Nous n'affichons une icône que si nous l'avons vérifiée auprès d'une source fiable. Sans icône, nous ne savons pas encore : demandez à l'organisateur avant d'y aller.",
+  lp2:"Quand les organisateurs publieront leurs événements, le formulaire leur demandera ce qu'ils proposent : accès fauteuil, boucle magnétique, langue des signes ou audiodescription."}
+};
+const IC={
+ wheel:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M11 7h2v5h5l3 6-1.8.9-2.4-4.9H11z"/><path d="M9.5 9.6v2.2A4.5 4.5 0 1 0 15.8 18h2.1A6.5 6.5 0 1 1 9.5 9.6z"/></svg>',
+ wc:'<b>WC</b>', dog:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9l2-3h3l1 2h6l2 2v4h-2v5h-2v-4H9v4H7v-5L4 12z"/><path d="M18 10l3-4 1 1-3 4z"/></svg>',
+ loop:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7h2a5 5 0 0 1 10 0c0 2-1 3-2.5 4.2C13 14.4 12 15.6 12 18a2 2 0 0 1-4 0H6a4 4 0 0 0 8 0c0-1.5.7-2.3 2-3.3C17.7 13.4 19 12 19 9a7 7 0 0 0-7-7z"/><path d="M12 6a3 3 0 0 0-3 3h2a1 1 0 0 1 2 0h2a3 3 0 0 0-3-3z"/></svg>',
+ lsc:'<b>LS</b>', ad:'<b>AD</b>', sub:'<b>CC</b>', calm:'<b>R</b>'
+};
+// Accessibilitat verificada per espai (només amb font contrastada)
+const VENUE_ACC={"Teatre Monumental":{f:["wheel","wc","dog"],s:"Apropa Cultura",u:"https://apropacultura.org/sites/default/files/teatre_monumental.pdf"}};
+// Classes setmanals dels centres cívics (es repeteixen; s'actualitzen a mà)
+const WEEK=[
+ {t:"Ball en línia",tt:{es:"Baile en línea",en:"Line dancing",fr:"Danse en ligne"},wd:1,h:"16:30",v:"Centre Cívic Rocafonda",b:"roca",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_ball-en-linia-4",x:{ca:"Classes de ball en línia.",es:"Clases de baile en línea.",en:"Line dancing classes.",fr:"Cours de danse en ligne."}},
+ {t:"Àrab per a infants",tt:{es:"Árabe para niños",en:"Arabic for kids",fr:"Arabe pour enfants"},wd:1,h:"18:00",v:"Centre Cívic Cerdanyola",b:"cerda",c:"taller",k:true,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy_of_arab-infants",x:{ca:"Classes d'àrab per a nens i nenes.",es:"Clases de árabe para niños y niñas.",en:"Arabic classes for children.",fr:"Cours d'arabe pour enfants."}},
+ {t:"Taller de màgia",tt:{es:"Taller de magia",en:"Magic workshop",fr:"Atelier de magie"},wd:1,h:"18:30",v:"Centre Cívic Espai Gatassa",b:"cerda",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_taller-de-magia-1",x:{ca:"Aprèn trucs de màgia en grup. També dimarts.",es:"Aprende trucos de magia en grupo. También los martes.",en:"Learn magic tricks in a group. Also on Tuesdays.",fr:"Apprenez des tours de magie. Aussi le mardi."}},
+ {t:"Flamenc",tt:{es:"Flamenco",en:"Flamenco",fr:"Flamenco"},wd:1,h:"18:30",v:"Centre Cívic Pla d'en Boet",b:"boet",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy2_of_flamenc",x:{ca:"Aprèn a ballar flamenc.",es:"Aprende a bailar flamenco.",en:"Learn to dance flamenco.",fr:"Apprenez à danser le flamenco."}},
+ {t:"Taller de pintura",tt:{es:"Taller de pintura",en:"Painting workshop",fr:"Atelier de peinture"},wd:1,h:"19:00",v:"Espai Jove Pla d'en Boet",b:"boet",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_taller-de-pintura",x:{ca:"Taller de pintura a l'Espai Jove.",es:"Taller de pintura en el Espai Jove.",en:"Painting workshop at the youth centre.",fr:"Atelier de peinture à l'espace jeunes."}},
+ {t:"Club de lectura en català",tt:{es:"Club de lectura en catalán",en:"Catalan reading club",fr:"Club de lecture en catalan"},wd:2,h:"15:30",v:"Centre Cívic Rocafonda",b:"roca",c:"biblio",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy43_of_dones-comartint",x:{ca:"Trobada per llegir i comentar llibres en català.",es:"Encuentro para leer y comentar libros en catalán.",en:"Reading group in Catalan.",fr:"Club de lecture en catalan."}},
+ {t:"Ball urbà infantil",tt:{es:"Baile urbano infantil",en:"Kids' street dance",fr:"Danse urbaine pour enfants"},wd:2,h:"17:30",v:"Espai Polivalent Rocafonda",b:"roca",c:"taller",k:true,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy31_of_ball-urba-infantil",x:{ca:"Classes de dansa urbana per a infants.",es:"Clases de danza urbana para niños.",en:"Street dance classes for kids.",fr:"Danse urbaine pour enfants."}},
+ {t:"Classes de sardanes",tt:{es:"Clases de sardanas",en:"Sardana dance classes",fr:"Cours de sardane"},wd:2,h:"19:00",v:"Centre Cívic Cabot i Barba",b:"centre",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_classes-de-sardanes",x:{ca:"Aprèn a ballar sardanes.",es:"Aprende a bailar sardanas.",en:"Learn the sardana, Catalonia's circle dance.",fr:"Apprenez à danser la sardane."}},
+ {t:"Zumba",wd:3,h:"17:00",v:"Centre Cívic Rocafonda",b:"roca",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy4_of_zumba-4",x:{ca:"Classes de zumba.",es:"Clases de zumba.",en:"Zumba classes.",fr:"Cours de zumba."}},
+ {t:"Talent Urbà",tt:{es:"Talento Urbano",en:"Urban Talent",fr:"Talent urbain"},wd:3,h:"17:30",v:"Centre Cívic Espai Gatassa",b:"cerda",c:"musica",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_talent-urba",x:{ca:"Espai per a joves de música i cultura urbana. També dijous i divendres.",es:"Espacio para jóvenes de música y cultura urbana. También jueves y viernes.",en:"Urban music and culture space for young people. Also Thu and Fri.",fr:"Espace jeunes de musique et culture urbaine. Aussi jeudi et vendredi."}},
+ {t:"Sevillanes",tt:{es:"Sevillanas",en:"Sevillanas",fr:"Sévillanes"},wd:4,h:"18:30",v:"Centre Cívic Pla d'en Boet",b:"boet",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_sevillanes",x:{ca:"Classe setmanal per aprendre a ballar sevillanes.",es:"Clase semanal para aprender a bailar sevillanas.",en:"Weekly sevillanas dance class.",fr:"Cours hebdomadaire de sévillanes."}},
+ {t:"Classes de ball country",tt:{es:"Clases de baile country",en:"Country dance classes",fr:"Cours de danse country"},wd:4,h:"18:00",v:"Centre Cívic Cabot i Barba",b:"centre",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy25_of_classes-de-ball-coutry",x:{ca:"Classes de ball country.",es:"Clases de baile country.",en:"Country dance classes.",fr:"Cours de danse country."}},
+ {t:"Ioga",tt:{es:"Yoga",en:"Yoga",fr:"Yoga"},wd:4,h:"19:00",v:"Centre Cívic Espai Gatassa",b:"cerda",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy7_of_ioga-6",x:{ca:"Sessió de ioga.",es:"Sesión de yoga.",en:"Yoga session.",fr:"Séance de yoga."}},
+ {t:"Coral",tt:{es:"Coral",en:"Choir",fr:"Chorale"},wd:5,h:"16:00",v:"Centre Cívic Espai Gatassa",b:"cerda",c:"musica",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy20_of_coral",x:{ca:"Grup de cant coral. També dilluns.",es:"Grupo de canto coral. También lunes.",en:"Choir group. Also on Mondays.",fr:"Chorale. Aussi le lundi."}},
+ {t:"Conversa d'anglès (nivell avançat)",tt:{es:"Conversación en inglés (nivel avanzado)",en:"English conversation (advanced)",fr:"Conversation en anglais (avancé)"},wd:5,h:"17:30",v:"Centre Cívic Cabot i Barba",b:"centre",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_classes-de-conversa-dangles-nivell-avancat",x:{ca:"Grup de conversa en anglès, nivell avançat.",es:"Grupo de conversación en inglés, nivel avanzado.",en:"Advanced English conversation group.",fr:"Conversation en anglais, niveau avancé."}},
+ {t:"Ball dels dissabtes",tt:{es:"Baile de los sábados",en:"Saturday dance",fr:"Bal du samedi"},wd:6,h:"16:00",v:"Centre Cívic Espai Gatassa",b:"cerda",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy38_of_ball-dissabtes",x:{ca:"Tarda de ball els dissabtes.",es:"Tarde de baile los sábados.",en:"Saturday afternoon dance.",fr:"Bal du samedi après-midi."}},
+ {t:"Balls de saló",tt:{es:"Bailes de salón",en:"Ballroom dancing",fr:"Danses de salon"},wd:6,h:"17:15",v:"Centre Cívic Rocafonda",b:"roca",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy4_of_balls-de-salo-1",x:{ca:"Ball de saló els dissabtes a la tarda.",es:"Baile de salón los sábados por la tarde.",en:"Ballroom dancing on Saturday afternoons.",fr:"Danses de salon le samedi après-midi."}}
+];
+const SH={ca:{weekend:'Aquest cap de setmana',kids:'Amb infants',free:'Gratis',acc:'Accessibles amb cadira',week:'Cada setmana',all:'Veure-ho tot',agenda:'Tota l\'agenda',wheel:'Accessible',until:'fins al'},es:{weekend:'Este fin de semana',kids:'Con niños',free:'Gratis',acc:'Accesibles en silla',week:'Cada semana',all:'Ver todo',agenda:'Toda la agenda',wheel:'Accesible',until:'hasta el'},en:{weekend:'This weekend',kids:'With kids',free:'Free',acc:'Wheelchair accessible',week:'Every week',all:'See all',agenda:'Full agenda',wheel:'Accessible',until:'until'},fr:{weekend:'Ce week-end',kids:'Avec enfants',free:'Gratuit',acc:'Accessibles en fauteuil',week:'Chaque semaine',all:'Tout voir',agenda:'Tout l\'agenda',wheel:'Accessible',until:'jusqu\'au'}};
+const FL={ca:{b:"Filtres",h:"Filtres",cat:"Categoria",where:"On",clear:"Esborra",show:n=>`Veure ${n} resultats`},es:{b:"Filtros",h:"Filtros",cat:"Categoría",where:"Dónde",clear:"Borrar",show:n=>`Ver ${n} resultados`},en:{b:"Filters",h:"Filters",cat:"Category",where:"Where",clear:"Clear",show:n=>`Show ${n} results`},fr:{b:"Filtres",h:"Filtres",cat:"Catégorie",where:"Où",clear:"Effacer",show:n=>`Voir ${n} résultats`}};
+const LOC={ca:"ca-ES",es:"es-ES",en:"en-GB",fr:"fr-FR"};
+
+let E=[],UPDATED=null,LOADED=false;
+const st={lang:"ca",when:"all",cat:null,free:false,kids:false,wheel:false,barri:"",q:""};
+try{const s=localStorage.getItem("qfm-lang");if(s&&T[s])st.lang=s;else{const n=(navigator.language||"").slice(0,2);if(T[n])st.lang=n;}}catch(e){}
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const ttl=e=>(e.tt&&e.tt[st.lang])||e.t;
+const desc=e=>(e.x&&(e.x[st.lang]||e.x.ca))||"";
+const iso=d=>d.toISOString().slice(0,10);
+function today(){const n=new Date();return new Date(Date.UTC(n.getFullYear(),n.getMonth(),n.getDate()));}
+function addD(d,n){const x=new Date(d);x.setUTCDate(x.getUTCDate()+n);return x;}
+function range(w=st.when){const t=today(),dow=t.getUTCDay();
+ if(w==="today")return[iso(t),iso(t)];
+ if(w==="weekend"){let s=dow===0?addD(t,-2):addD(t,5-dow);if(s<t)s=t;const end=dow===0?t:addD(t,7-dow);return[iso(s),iso(end)];}
+ if(w==="two")return[iso(t),iso(addD(t,14))];
+ return[iso(t),"9999-12-31"];}
+const priceTag=(e,L)=>e.p===0?`<span class="price free">${L.gratis}</span>`:e.p?`<span class="price">${esc(e.p)}</span>`:`<span class="price ask">${L.ask}</span>`;
+const matchesQ=(e,q)=>!q||(e.t+" "+ttl(e)+" "+e.v+" "+desc(e)).toLowerCase().includes(q);
+
+function render(){
+ const L=T[st.lang],XL=X[st.lang],S=SH[st.lang],F=FL[st.lang];document.documentElement.lang=st.lang;
+ $("badge").textContent=L.badge;$("h1").innerHTML=L.h1;$("lede").textContent=L.lede;
+ $("updated").textContent=UPDATED?`${L.updated}: ${new Intl.DateTimeFormat(LOC[st.lang],{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}).format(new Date(UPDATED))}`:"";
+ document.querySelectorAll(".langs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===st.lang));
+ $("when").innerHTML=Object.keys(L.when).map(k=>`<button data-w="${k}" aria-pressed="${st.when===k}">${L.when[k]}</button>`).join("");
+ $("freeBtn").textContent=L.free;$("freeBtn").setAttribute("aria-pressed",st.free);
+ $("kidsBtn").textContent=XL.kids;$("kidsBtn").setAttribute("aria-pressed",st.kids);
+ $("wheelBtn").innerHTML=IC.wheel+S.wheel;$("wheelBtn").title=XL.wheel;$("wheelBtn").setAttribute("aria-pressed",st.wheel);
+ $("legend").innerHTML=`<h2>${XL.lh}</h2><p>${XL.lp1}</p><div class="lgrid">${Object.keys(IC).map(k=>`<div><span class="ai">${IC[k]}</span>${XL.f[k]}</div>`).join("")}</div><p>${XL.lp2}</p>`;
+ $("cats").innerHTML=`<button class="chip" data-c="" aria-pressed="${!st.cat}">${L.allCats}</button>`+Object.keys(CATS).map(k=>`<button class="chip" data-c="${k}" aria-pressed="${st.cat===k}">${CATS[k][st.lang]}</button>`).join("");
+ $("barri").innerHTML=`<option value="">${L.allBarris}</option>`+Object.keys(BARRIS).map(k=>`<option value="${k}"${st.barri===k?" selected":""}>${BARRIS[k]}</option>`).join("");
+ $("barri").setAttribute("aria-label",F.where);$("q").placeholder=L.search;$("q").setAttribute("aria-label",L.search);
+ $("ctaH").textContent=L.ctaH;$("ctaP").textContent=L.ctaP;$("ctaB").textContent=L.ctaB;
+ $("note").innerHTML=esc(L.note)+` Dades de biblioteques i museus: <a href="https://do.diba.cat" target="_blank" rel="noopener">Diputació de Barcelona</a> (CC BY 4.0).`;
+ $("credit").innerHTML=`${L.credit} <a href="https://github.com/RoseSunshineG" target="_blank" rel="noopener">Rosemarie García</a> · <a href="https://github.com/RoseSunshineG/que-fem-mataro" target="_blank" rel="noopener">GitHub</a>`;
+ const [a,b]=range(),q=st.q.trim().toLowerCase();
+ const items=E.filter(e=>{const end=e.e||e.d;if(end<a||e.d>b)return false;if(st.cat&&e.c!==st.cat)return false;if(st.free&&e.p!==0)return false;if(st.kids&&!e.k)return false;if(st.wheel&&!(e.acc&&e.acc.f.includes("wheel")))return false;if(st.barri&&e.b!==st.barri)return false;return matchesQ(e,q);})
+  .map(e=>({...e,show:e.d<a?a:e.d})).sort((x,y)=>(x.show+x.h).localeCompare(y.show+y.h));
+ renderWeek(XL,q);renderShelves(L,S,q);
+ const act=(st.cat?1:0)+(st.barri?1:0)+(q?1:0);
+ $("filtLbl").textContent=F.b;$("fcount").hidden=!act;$("fcount").textContent=act;$("sheetH").textContent=F.h;
+ $("catLbl").textContent=F.cat;$("whereLbl").textContent=F.where;$("clearBtn").textContent=F.clear;$("showBtn").textContent=F.show(items.length);
+ if(!LOADED){$("count").textContent="";$("out").innerHTML=`<div class="empty">${L.loading}</div>`;return;}
+ $("count").textContent=L.count(items.length);
+ if(!items.length){$("out").innerHTML=`<div class="empty">${L.empty}</div>`;return;}
+ const loc=LOC[st.lang];
+ const fW=new Intl.DateTimeFormat(loc,{weekday:"short",timeZone:"UTC"}),fM=new Intl.DateTimeFormat(loc,{month:"short",timeZone:"UTC"}),fL=new Intl.DateTimeFormat(loc,{day:"numeric",month:"long",timeZone:"UTC"});
+ const groups={};items.forEach(e=>(groups[e.show]=groups[e.show]||[]).push(e));
+ $("out").innerHTML=Object.keys(groups).map(d=>{const dt=new Date(d+"T00:00:00Z");
+  return `<section class="day"><div class="date"><div class="dw">${fW.format(dt).replace(".","")}</div><div class="dn">${dt.getUTCDate()}</div><div class="dm">${fM.format(dt).replace(".","")}</div></div><div class="list">`+
+  groups[d].map(e=>{const note=e.n&&XL.n[e.n]?` <span class="pnote">${XL.n[e.n]}</span>`:"";const ds=desc(e);
+   const acc=e.acc?`<div class="acc">${e.acc.f.map(f=>`<span class="ai ok" title="${XL.f[f]}" aria-label="${XL.f[f]}">${IC[f]}</span>`).join("")}<span class="accsrc">${XL.via}: <a href="${esc(e.acc.u)}" target="_blank" rel="noopener">${esc(e.acc.s)}</a></span></div>`:"";
+   return `<article class="ev" id="ev-${e.id}"><div class="meta">${e.h?`<span class="time">${esc(e.h)}</span>`:""}<span class="cat">${CATS[e.c]?CATS[e.c][st.lang]:""}</span>${e.k?`<span class="kid">${XL.kid}</span>`:""}${e.e?`<span class="multi">${L.until} ${fL.format(new Date(e.e+"T00:00:00Z"))}</span>`:""}</div>
+   <h3>${esc(ttl(e))}</h3><div class="meta"><span>${esc(e.v)}</span><span>·</span><span>${BARRIS[e.b]||BARRIS.diversos}</span></div>${ds?`<p>${esc(ds)}</p>`:""}${acc}
+   <div class="foot"><span>${priceTag(e,L)}${note}</span><a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${L.more} · ${esc(e.s)} ↗</a></div></article>`;}).join("")+`</div></section>`;}).join("");
+}
+function renderShelves(L,S,q){
+ const mag=LOADED&&st.when==="all"&&!st.free&&!st.kids&&!st.wheel&&!st.cat&&!st.barri&&!q;
+ if(!mag){$("shelves").innerHTML="";return;}
+ const t=iso(today()),loc=LOC[st.lang];
+ const fD=new Intl.DateTimeFormat(loc,{weekday:"short",day:"numeric",month:"short",timeZone:"UTC"}),fL=new Intl.DateTimeFormat(loc,{day:"numeric",month:"short",timeZone:"UTC"});
+ const up=E.filter(e=>(e.e||e.d)>=t).sort((x,y)=>((x.d<t?t:x.d)+x.h).localeCompare((y.d<t?t:y.d)+y.h));
+ const [wa,wb]=range("weekend");
+ const card=e=>{const d=e.d<t?`${S.until} ${fL.format(new Date((e.e||e.d)+"T00:00:00Z"))}`:fD.format(new Date(e.d+"T00:00:00Z"))+(e.h?` · ${esc(e.h)}`:"");
+  const pr=e.p===0?`<span class="price free">${L.gratis}</span>`:e.p?`<span class="price">${esc(e.p)}</span>`:"";
+  return `<button class="mini" data-go="${e.id}"><span class="md">${d}</span><h3>${esc(ttl(e))}</h3><span class="mv">${esc(e.v)}</span>${pr}</button>`;};
+ const rows=[["weekend",up.filter(e=>(e.e||e.d)>=wa&&e.d<=wb)],["kids",up.filter(e=>e.k)],["free",up.filter(e=>e.p===0)],["wheel",up.filter(e=>e.acc&&e.acc.f.includes("wheel"))]];
+ const fW=new Intl.DateTimeFormat(loc,{weekday:"short",timeZone:"UTC"});
+ let h=rows.filter(r=>r[1].length).map(([k,list])=>`<section class="shelf"><div class="shead"><h2>${k==="wheel"?S.acc:S[k]}</h2><button class="seeall" data-preset="${k}">${S.all} →</button></div><div class="strip">${list.slice(0,12).map(card).join("")}</div></section>`).join("");
+ h+=`<section class="shelf"><div class="shead"><h2>${S.week}</h2><button class="seeall" data-preset="week">${S.all} →</button></div><div class="strip">${WEEK.map(w=>`<button class="mini" data-preset="week"><span class="md">${fW.format(new Date(Date.UTC(2026,9,25+w.wd)))} · ${w.h}</span><h3>${esc(ttl(w))}</h3><span class="mv">${esc(w.v)}</span></button>`).join("")}</div></section>`;
+ $("shelves").innerHTML=h+`<h2 class="agendaH">${S.agenda}</h2>`;
+}
+function renderWeek(XL,q){
+ const fW=new Intl.DateTimeFormat(LOC[st.lang],{weekday:"long",timeZone:"UTC"});
+ const w=WEEK.filter(e=>!(st.free||st.wheel)&&(!st.cat||e.c===st.cat)&&(!st.kids||e.k)&&(!st.barri||e.b===st.barri)&&matchesQ(e,q));
+ if(!w.length){$("week").innerHTML="";return;}
+ const days=[...new Set(w.map(e=>e.wd))].sort();
+ $("week").innerHTML=`<h2>${XL.wkH}</h2><p>${XL.wkP}</p>`+days.map(d=>{const name=fW.format(new Date(Date.UTC(2026,9,25+d)));
+  return `<div class="wd"><div class="wn">${name.slice(0,3)}</div><div class="list">`+w.filter(e=>e.wd===d).sort((a,b)=>a.h.localeCompare(b.h)).map(e=>
+  `<article class="ev"><div class="meta"><span class="time">${e.h}</span><span class="cat">${CATS[e.c][st.lang]}</span>${e.k?`<span class="kid">${XL.kid}</span>`:""}</div><h3>${esc(ttl(e))}</h3><div class="meta"><span>${esc(e.v)}</span><span>·</span><span>${BARRIS[e.b]}</span></div><p>${esc(desc(e))}</p><div class="foot"><span class="price ask">${XL.wkI}</span><a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${T[st.lang].more} · ${XL.wkS} ↗</a></div></article>`).join("")+`</div></div>`;}).join("");
+}
+function sheet(o){document.body.classList.toggle("sheet",o);$("filtBtn").setAttribute("aria-expanded",o);if(o)$("sheetClose").focus();}
+$("filtBtn").addEventListener("click",()=>sheet(true));
+$("sheetClose").addEventListener("click",()=>sheet(false));
+$("showBtn").addEventListener("click",()=>{sheet(false);$("count").scrollIntoView({block:"start"});});
+$("backdrop").addEventListener("click",()=>sheet(false));
+document.addEventListener("keydown",e=>{if(e.key==="Escape")sheet(false);});
+$("clearBtn").addEventListener("click",()=>{Object.assign(st,{cat:null,free:false,kids:false,wheel:false,barri:"",q:""});$("q").value="";render();});
+document.addEventListener("click",ev=>{const m=ev.target.closest("[data-go],[data-preset]");if(!m)return;
+ if(m.dataset.go){const el=$("ev-"+m.dataset.go);if(el){el.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1600);}return;}
+ const k=m.dataset.preset;if(k==="week"){$("week").scrollIntoView({block:"start"});return;}
+ if(k==="weekend")st.when="weekend";else if(k==="kids")st.kids=true;else if(k==="free")st.free=true;else if(k==="wheel")st.wheel=true;
+ render();$("count").scrollIntoView({block:"start"});ev.stopImmediatePropagation();},true);
+let lastY=window.scrollY;
+window.addEventListener("scroll",()=>{const y=window.scrollY;if(document.body.classList.contains("sheet"))return;
+ if(y>lastY+6&&y>260)document.body.classList.add("hidebar");else if(y<lastY-6||y<120)document.body.classList.remove("hidebar");lastY=y;},{passive:true});
+document.addEventListener("click",ev=>{const b=ev.target.closest("button");if(!b)return;
+ if(b.dataset.l){st.lang=b.dataset.l;try{localStorage.setItem("qfm-lang",st.lang)}catch(e){}}
+ else if(b.dataset.w)st.when=b.dataset.w;else if(b.id==="freeBtn")st.free=!st.free;else if(b.id==="kidsBtn")st.kids=!st.kids;else if(b.id==="wheelBtn")st.wheel=!st.wheel;else if("c" in b.dataset)st.cat=b.dataset.c||null;else return;render();});
+$("barri").addEventListener("change",e=>{st.barri=e.target.value;render();});
+$("q").addEventListener("input",e=>{st.q=e.target.value;render();});
+
+render();
+fetch("data/events.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
+ UPDATED=d.updated;
+ E=(d.events||[]).map((e,i)=>({...e,id:i,acc:VENUE_ACC[e.v]||null}));
+}).catch(err=>console.error("No s'ha pogut carregar l'agenda",err)).finally(()=>{LOADED=true;render();});
+</script>
+</body>
+</html>
