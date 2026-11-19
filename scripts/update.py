@@ -41,7 +41,7 @@ TRANSL = DATA / "translations.json"
 CACHE = DATA / "sources-cache.json"
 
 UA = "QueFemMataroBot/1.0 (+https://github.com/RoseSunshineG/que-fem-mataro)"
-TIMEOUT = 30
+TIMEOUT = 45
 TODAY = dt.date.today()
 HORIZON = TODAY + dt.timedelta(days=120)
 
@@ -260,10 +260,13 @@ def src_diba() -> dict[str, list]:
 
 # --------------------------------------------------------- source: Plone
 
+# Per a cada web es proven diverses adreces base, en ordre.
 PLONE_SITES = {
-    "plone:culturamataro": ("Cultura Mataró", "https://www.culturamataro.cat/agenda-cultura", None),
-    "plone:entitats": ("Agenda d'entitats", "https://entitatsmataro.cat/agenda", None),
-    "plone:civics": ("Xarxa d'Equipaments Cívics", "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda", "taller"),
+    "plone:culturamataro": ("Cultura Mataró", ["https://www.culturamataro.cat", "https://www.culturamataro.cat/agenda-cultura",
+                                                "https://culturamataro.cat"], None),
+    "plone:entitats": ("Agenda d'entitats", ["https://entitatsmataro.cat", "https://www.entitatsmataro.cat",
+                                              "https://entitatsmataro.cat/agenda"], None),
+    "plone:civics": ("Xarxa d'Equipaments Cívics", ["https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda"], "taller"),
 }
 
 
@@ -361,15 +364,19 @@ def plone_rss(base: str):
 
 def src_plone() -> dict[str, list]:
     out = {}
-    for key, (label, base, cat) in PLONE_SITES.items():
+    for key, (label, bases, cat) in PLONE_SITES.items():
         rows, how = None, None
-        for how, fn in (("restapi", plone_restapi), ("ics", plone_ics), ("rss", plone_rss)):
-            try:
-                rows = list(fn(base))
-                if rows:
-                    break
-            except Exception as ex:  # noqa: BLE001
-                note_err(key, f"{how} → {type(ex).__name__}: {ex}")
+        for base in bases:
+            for how, fn in (("restapi", plone_restapi), ("ics", plone_ics), ("rss", plone_rss)):
+                try:
+                    rows = list(fn(base))
+                    if rows:
+                        break
+                except Exception as ex:  # noqa: BLE001
+                    note_err(key, f"{base} {how} → {type(ex).__name__}: {ex}")
+            if rows:
+                how = f"{how} @ {base}"
+                break
         if not rows:
             log(f"FAIL {key}: cap via ha funcionat")
             continue
