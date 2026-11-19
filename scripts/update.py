@@ -534,6 +534,34 @@ def translate_all(events):
             e["x"].setdefault(lang, v)
 
 
+# ---------------------------------------------------- recurring classes
+
+def split_weekly(events):
+    """Separa les activitats que es repeteixen cada setmana (classes, grups)
+    dels esdeveniments puntuals. Una activitat és setmanal si el mateix títol,
+    lloc, dia de la setmana i hora apareix en 2 o més dates diferents."""
+    groups = {}
+    for e in events:
+        if e.get("e") or e.get("s") in ("Biblioteques de Mataró", "Museu de Mataró"):
+            continue
+        d = dt.date.fromisoformat(e["d"])
+        k = (norm(e["t"]), norm(e["v"]), d.weekday(), e["h"])
+        groups.setdefault(k, []).append(e)
+    recurring_ids, weekly = set(), []
+    for (_, _, wd, _), lst in groups.items():
+        if len({x["d"] for x in lst}) < 2:
+            continue
+        recurring_ids.update(id(x) for x in lst)
+        f = lst[0]
+        weekly.append({"t": f["t"], "wd": (wd + 1) % 7, "h": f["h"], "v": f["v"], "b": f["b"],
+                       "c": f["c"], "k": f["k"], "u": f["u"], "s": f["s"], "x": dict(f["x"]),
+                       **({"tt": f["tt"]} if f.get("tt") else {})})
+    weekly.sort(key=lambda w: ((w["wd"] - 1) % 7, w["h"], w["t"]))
+    rest = [e for e in events if id(e) not in recurring_ids]
+    log(f"Setmanals: {len(weekly)} activitats · Puntuals: {len(rest)}")
+    return rest, weekly
+
+
 # ------------------------------------------------------------------ main
 
 PRIORITY = ["manual", "form", "plone:culturamataro", "plone:entitats", "plone:civics",
@@ -583,7 +611,9 @@ def main():
                 e["x"] = {**e["x"], **o["x"]}
             e.update({k: v for k, v in o.items() if k != "x"})
 
+    merged, weekly = split_weekly(merged)
     translate_all(merged)
+    translate_all(weekly)
     merged.sort(key=lambda e: (e["d"], e["h"], e["t"]))
 
     for k, v in status.items():
@@ -591,7 +621,7 @@ def main():
     if not merged:
         sys.exit("Cap esdeveniment: no sobreescrivim res")
 
-    payload = {"updated": now, "status": status, "events": merged}
+    payload = {"updated": now, "status": status, "events": merged, "weekly": weekly}
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), "utf-8")
     CACHE.write_text(json.dumps(by_source, ensure_ascii=False, indent=1), "utf-8")
     log(f"\nTotal: {len(merged)} esdeveniments → {OUT.relative_to(ROOT)}")
