@@ -146,7 +146,7 @@ main{padding-block:8px 40px}
 .cta{margin-top:28px;background:var(--ink);color:var(--bg);border-radius:12px;padding:22px;display:grid;gap:10px}
 .cta h2{font:800 30px/1 var(--display);text-transform:uppercase;margin:0}
 .cta p{margin:0;opacity:.85;max-width:60ch}
-.cta .soon{justify-self:start;font:700 13px var(--body);background:var(--sun);color:var(--sun-ink);padding:9px 14px;border-radius:8px}
+.cta .soon{justify-self:start;text-decoration:none;font:700 13px var(--body);background:var(--sun);color:var(--sun-ink);padding:9px 14px;border-radius:8px}
 .note{font-size:12px;color:var(--muted);margin-top:18px}
 .note a{color:var(--muted)}
 footer.credit{font-size:12px;color:var(--muted);padding-block:0 32px}
@@ -205,7 +205,7 @@ footer.credit a{color:var(--sea)}
     <section class="cta">
       <h2 id="ctaH"></h2>
       <p id="ctaP"></p>
-      <span class="soon" id="ctaB"></span>
+      <a class="soon" id="ctaB" href="https://docs.google.com/forms/d/e/1FAIpQLSf_JzsGiHKxjnbYabKs7tJDFiAynnSwh-93sR-a3PXDfkSibA/viewform" target="_blank" rel="noopener"></a>
     </section>
     <p class="note" id="note"></p>
   </main>
@@ -217,22 +217,22 @@ const T={
  ca:{badge:"Beta",h1:'Què fem a <span>Mataró</span>',lede:"Tots els plans de la ciutat en un sol lloc: teatre, música, festes de barri, biblioteques, activitats per a famílies i molt més. Cada esdeveniment enllaça a la font original.",
   when:{all:"Tot",today:"Avui",weekend:"Cap de setmana",two:"Pròximes 2 setmanes"},free:"Només gratuït",allCats:"Totes",allBarris:"Tots els barris",search:"Cerca…",
   count:n=>n===1?"1 esdeveniment":n+" esdeveniments",empty:"No hi ha res amb aquests filtres. Prova'n uns altres.",loading:"Carregant l'agenda…",gratis:"Gratuït",ask:"Preu a la font",more:"Més info",until:"fins al",updated:"Actualitzat",
-  ctaH:"Organitzes alguna cosa?",ctaP:"Bars, cafeteries, escoles, associacions i entitats: aviat podreu publicar els vostres esdeveniments aquí en dos minuts, sense registre i de franc.",ctaB:"Formulari molt aviat",
+  ctaH:"Organitzes alguna cosa?",ctaP:"Bars, cafeteries, escoles, associacions i entitats: publiqueu el vostre esdeveniment en dos minuts, sense registre i de franc. El revisem abans de publicar-lo.",ctaB:"Publica el teu esdeveniment →",
   note:"Informació recollida d'agendes públiques i actualitzada cada dia. Comprova sempre horaris i preus a la font abans d'anar-hi.",credit:"Un projecte de"},
  es:{badge:"Beta",h1:'Qué hacemos en <span>Mataró</span>',lede:"Todos los planes de la ciudad en un solo sitio: teatro, música, fiestas de barrio, bibliotecas, actividades en familia y mucho más. Cada evento enlaza a su fuente original.",
   when:{all:"Todo",today:"Hoy",weekend:"Fin de semana",two:"Próximas 2 semanas"},free:"Solo gratis",allCats:"Todas",allBarris:"Todos los barrios",search:"Buscar…",
   count:n=>n===1?"1 evento":n+" eventos",empty:"No hay nada con estos filtros. Prueba otros.",loading:"Cargando la agenda…",gratis:"Gratis",ask:"Precio en la fuente",more:"Más info",until:"hasta el",updated:"Actualizado",
-  ctaH:"¿Organizas algo?",ctaP:"Bares, cafeterías, escuelas, asociaciones y entidades: pronto podréis publicar vuestros eventos aquí en dos minutos, sin registro y gratis.",ctaB:"Formulario muy pronto",
+  ctaH:"¿Organizas algo?",ctaP:"Bares, cafeterías, escuelas, asociaciones y entidades: publica tu evento en dos minutos, sin registro y gratis. Lo revisamos antes de publicarlo.",ctaB:"Publica tu evento →",
   note:"Información recogida de agendas públicas y actualizada cada día. Comprueba siempre horarios y precios en la fuente antes de ir.",credit:"Un proyecto de"},
  en:{badge:"Beta",h1:'What’s on in <span>Mataró</span>',lede:"Every plan in town in one place: theatre, music, neighbourhood festivals, libraries, family activities and more. Each event links to its original source.",
   when:{all:"All",today:"Today",weekend:"This weekend",two:"Next 2 weeks"},free:"Free only",allCats:"All",allBarris:"All neighbourhoods",search:"Search…",
   count:n=>n===1?"1 event":n+" events",empty:"Nothing matches these filters. Try different ones.",loading:"Loading the agenda…",gratis:"Free",ask:"Price at source",more:"More info",until:"until",updated:"Updated",
-  ctaH:"Organising something?",ctaP:"Bars, cafés, schools, associations and local groups: soon you'll be able to post your events here in two minutes, free and without signing up.",ctaB:"Form coming soon",
+  ctaH:"Organising something?",ctaP:"Bars, cafés, schools, associations and local groups: post your event in two minutes, free and without signing up. We review it before it goes live.",ctaB:"Post your event →",
   note:"Collected from public listings and updated daily. Always check times and prices at the source before you go.",credit:"A project by"},
  fr:{badge:"Bêta",h1:'Que faire à <span>Mataró</span>',lede:"Toutes les sorties de la ville au même endroit : théâtre, musique, fêtes de quartier, bibliothèques, activités en famille et plus encore. Chaque événement renvoie à sa source.",
   when:{all:"Tout",today:"Aujourd’hui",weekend:"Ce week-end",two:"2 prochaines semaines"},free:"Gratuit seulement",allCats:"Toutes",allBarris:"Tous les quartiers",search:"Rechercher…",
   count:n=>n===1?"1 événement":n+" événements",empty:"Rien ne correspond à ces filtres. Essayez-en d’autres.",loading:"Chargement de l’agenda…",gratis:"Gratuit",ask:"Prix sur la source",more:"Plus d’infos",until:"jusqu’au",updated:"Mis à jour",
-  ctaH:"Vous organisez quelque chose ?",ctaP:"Bars, cafés, écoles, associations : bientôt vous pourrez publier vos événements ici en deux minutes, gratuitement et sans inscription.",ctaB:"Formulaire bientôt",
+  ctaH:"Vous organisez quelque chose ?",ctaP:"Bars, cafés, écoles, associations : publiez votre événement en deux minutes, gratuitement et sans inscription. Nous le vérifions avant publication.",ctaB:"Publiez votre événement →",
   note:"Informations issues d’agendas publics et mises à jour chaque jour. Vérifiez toujours horaires et prix sur la source avant d’y aller.",credit:"Un projet de"}
 };
 const CATS={musica:{ca:"Música",es:"Música",en:"Music",fr:"Musique"},escena:{ca:"Teatre i escena",es:"Teatro y escena",en:"Theatre & stage",fr:"Théâtre & scène"},
