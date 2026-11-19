@@ -1,35 +1,45 @@
 {
- "updated": "2026-11-19T22:37+00:00",
+ "updated": "2026-11-19T22:56+00:00",
  "status": {
   "plone:culturamataro": {
    "ok": false,
    "n": 0,
-   "at": null
+   "at": null,
+   "err": [
+    "restapi → HTTPError: HTTP Error 500: Internal Server Error",
+    "ics → HTTPError: HTTP Error 500: Internal Server Error",
+    "rss → HTTPError: HTTP Error 500: Internal Server Error"
+   ]
   },
   "plone:entitats": {
    "ok": false,
    "n": 0,
-   "at": null
+   "at": null,
+   "err": [
+    "restapi → HTTPError: HTTP Error 404: Not Found",
+    "ics → TimeoutError: The read operation timed out",
+    "rss → HTTPError: HTTP Error 404: Not Found"
+   ]
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-19T22:37+00:00"
+   "at": "2026-11-19T22:56+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
    "n": 24,
-   "at": "2026-11-19T22:37+00:00"
+   "at": "2026-11-19T22:56+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T22:37+00:00"
+   "at": "2026-11-19T22:56+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T22:37+00:00"
+   "at": "2026-11-19T22:56+00:00"
   }
  },
  "events": [
