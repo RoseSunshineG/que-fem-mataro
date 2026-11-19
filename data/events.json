@@ -1,45 +1,46 @@
 {
- "updated": "2026-11-19T22:56+00:00",
+ "updated": "2026-11-19T23:01+00:00",
  "status": {
   "plone:culturamataro": {
    "ok": false,
    "n": 0,
    "at": null,
    "err": [
-    "restapi → HTTPError: HTTP Error 500: Internal Server Error",
-    "ics → HTTPError: HTTP Error 500: Internal Server Error",
-    "rss → HTTPError: HTTP Error 500: Internal Server Error"
+    "https://www.culturamataro.cat restapi → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://www.culturamataro.cat ics → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://www.culturamataro.cat rss → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://www.culturamataro.cat/agenda-cultura restapi → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://www.culturamataro.cat/agenda-cultura ics → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://www.culturamataro.cat/agenda-cultura rss → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://culturamataro.cat restapi → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://culturamataro.cat ics → HTTPError: HTTP Error 500: Internal Server Error",
+    "https://culturamataro.cat rss → HTTPError: HTTP Error 500: Internal Server Error"
    ]
   },
   "plone:entitats": {
-   "ok": false,
-   "n": 0,
-   "at": null,
-   "err": [
-    "restapi → HTTPError: HTTP Error 404: Not Found",
-    "ics → TimeoutError: The read operation timed out",
-    "rss → HTTPError: HTTP Error 404: Not Found"
-   ]
+   "ok": true,
+   "n": 47,
+   "at": "2026-11-19T23:01+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-19T22:56+00:00"
+   "at": "2026-11-19T23:01+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
    "n": 24,
-   "at": "2026-11-19T22:56+00:00"
+   "at": "2026-11-19T23:01+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T22:56+00:00"
+   "at": "2026-11-19T23:01+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T22:56+00:00"
+   "at": "2026-11-19T23:01+00:00"
   }
  },
  "events": [
@@ -74,6 +75,54 @@
     "ca": ""
    },
    "e": "2026-12-18"
+  },
+  {
+   "t": "Es busquen patrocinadors pel Torneig Solidari de Dards",
+   "d": "2026-10-28",
+   "h": "18:00",
+   "v": "AV de Cirera",
+   "b": "molins",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/es-busquen-patrocinadors-pel-torneig-solidari-de-dards",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "En benefici de l'associació Catalana Síndrome X Fràgil"
+   },
+   "e": "2026-11-28"
+  },
+  {
+   "t": "Exposició d'olis",
+   "d": "2026-11-01",
+   "h": "09:00",
+   "v": "Les Esmandies Casal de Barri",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/exposicio-dolis",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-30"
+  },
+  {
+   "t": "Photos",
+   "d": "2026-11-02",
+   "h": "09:00",
+   "v": "Casal de la Gent Gran de Cerdanyola",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/photos",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-27"
   },
   {
    "t": "DONES SUPERVIVENTS",
@@ -146,6 +195,22 @@
    "k": false,
    "p": null,
    "h": ""
+  },
+  {
+   "t": "Exposició de pintura, escultura i fotografia",
+   "d": "2026-11-13",
+   "h": "",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/exposicio-de-pintura-escultura-i-fotografia",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-28"
   },
   {
    "t": "PUNTS DE LLIBRE DE LA BIBLIOTECA",
@@ -299,6 +364,21 @@
    }
   },
   {
+   "t": "Presentació del llibre \"Articles polítics de Josep Puig i Cadafalch\"",
+   "d": "2026-11-19",
+   "h": "18:00",
+   "v": "Can Palauet c. d'En Palau",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/presentacio-del-llibre-articles-politics-de-josep-puig-i-cadafalch",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Formació",
    "d": "2026-11-19",
    "h": "18:30",
@@ -341,6 +421,21 @@
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Curs per aprendre a ballar Sevillanes setmanal dijous"
+   }
+  },
+  {
+   "t": "Conferència \"Bones pràctiques per prevenir l'assetjament\"",
+   "d": "2026-11-19",
+   "h": "19:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/conferencia-bones-practiques-per-prevenir-lassetjament",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
    }
   },
   {
@@ -389,6 +484,21 @@
    }
   },
   {
+   "t": "Xerrada - Cuidem les persones per una vida saludable “Insuficiència venosa (varius)” Causes i prevenció, Tractaments i consells",
+   "d": "2026-11-19",
+   "h": "19:00",
+   "v": "Les Esmandies Casal de Barri",
+   "b": "diversos",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/xerrada-cuidem-les-persones-per-una-vida-saludable-201cinsuficiencia-venosa-varius-201d-causes-i-prevencio-tractaments-i-consells",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Ball de zumba",
    "d": "2026-11-19",
    "h": "20:00",
@@ -416,6 +526,21 @@
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Exercicis de gimnàstica"
+   }
+  },
+  {
+   "t": "Reviu al Centre Cívic Espai Gatassa",
+   "d": "2026-11-20",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy3_of_reviu-al-centre-civic-rocafonda-4",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Taller d'autoreparació de la llar"
    }
   },
   {
@@ -524,6 +649,36 @@
    }
   },
   {
+   "t": "Actualització en malalties de sensibilització central",
+   "d": "2026-11-20",
+   "h": "18:00",
+   "v": "Centre Civic Espai Gatassa- c. de Josep Montserrat Quadrada",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/actualitzacio-en-malalties-de-sensibilitzacio-central",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Xerrada"
+   }
+  },
+  {
+   "t": "Conversa amb Miquel Missé i Elisenda Pascual sobre Tarsius",
+   "d": "2026-11-20",
+   "h": "18:00",
+   "v": "Espai Mataró Connecta",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/despres-de-tarsius-conversa-amb-miquel-misse",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Programació OFF Generació Participa"
+   }
+  },
+  {
    "t": "Mindfulness para la salud i el bienestar",
    "d": "2026-11-20",
    "h": "19:00",
@@ -534,6 +689,21 @@
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy30_of_mindfulness-para-la-salud-i-el-bienestar",
    "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Flamenco i Punt",
+   "d": "2026-11-20",
+   "h": "21:00",
+   "v": "Casal L'Aliança de Mataró",
+   "b": "centre",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/flamenc-i-punt",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -611,6 +781,51 @@
    "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
+   }
+  },
+  {
+   "t": "Concerts a Les Esmandies  \"Il Dolce Far Musica i l'Orquestra Camerata da Capo\"",
+   "d": "2026-11-22",
+   "h": "12:00",
+   "v": "Les Esmandies Casal de Barri",
+   "b": "diversos",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/concerts-a-les-esmandies-il-dolce-far-musica-i-lorquestra-camerata-da-capo",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Concerts “Il Dolce Far Musicai Musicus, Orquestra de Flautes Dolces del Coll de Barcelona”",
+   "d": "2026-11-22",
+   "h": "12:00",
+   "v": "Les Esmandies Casal de Barri",
+   "b": "diversos",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/concerts-201cil-dolce-far-musica-i-musicus-orquestra-de-flautes-dolces-del-coll-de-barcelona201d",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Concert d'homenatge a Mn. Manuel Blanch i Puig",
+   "d": "2026-11-22",
+   "h": "19:00",
+   "v": "Teatre Monumental- La Riera",
+   "b": "centre",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/concert-dhomenatge-a-mn-manuel-blanch-i-puig",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Cor Madrigalista de Mataró i Orquestra de Mataró i solistes"
    }
   },
   {
@@ -714,6 +929,21 @@
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_coral",
    "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Lletres que sonen",
+   "d": "2026-11-23",
+   "h": "16:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/lletres-que-sonen",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -1019,6 +1249,21 @@
    }
   },
   {
+   "t": "Memòria i alimentació saludable",
+   "d": "2026-11-24",
+   "h": "15:30",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy3_of_memoria-i-alimentacio-saludable-8",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Pintura a l'oli",
    "d": "2026-11-24",
    "h": "15:30",
@@ -1106,6 +1351,21 @@
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
+   }
+  },
+  {
+   "t": "ReVIU al Centre Cívic Rocafonda",
+   "d": "2026-11-24",
+   "h": "17:30",
+   "v": "Centre Cívic Rocafonda",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/reviu-al-centre-civic-rocafonda-4",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Taller d'autoreparació de bicicletes"
    }
   },
   {
@@ -1544,6 +1804,21 @@
    }
   },
   {
+   "t": "Caminada de Descoberta a Mataró: Ruta fins al Turó de Cerdanyola",
+   "d": "2026-11-26",
+   "h": "09:30",
+   "v": "Avinguda Amèrica amb Avinguda Perú",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/caminada-de-descoberta-a-mataro-ruta-fins-al-turo-de-cerdanyola",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Una nova oportunitat per descobrir el patrimoni natural, paisatgístic i urbà de Mataró a través d’un itinerari guiat pels barri de Rocafonda i el seu entorn."
+   }
+  },
+  {
    "t": "Ioga dijous matí",
    "d": "2026-11-26",
    "h": "09:30",
@@ -1799,6 +2074,21 @@
    }
   },
   {
+   "t": "Vacuna't contra la grip i la Covid-19",
+   "d": "2026-11-27",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/vacunat-contra-la-grip-i-la-covid-19",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Balls en línia",
    "d": "2026-11-27",
    "h": "10:00",
@@ -1826,6 +2116,36 @@
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
+   }
+  },
+  {
+   "t": "El Gegant del Pi (Sessió exclusiva per a centres educatius)",
+   "d": "2026-11-27",
+   "h": "11:00",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/el-gegant-del-pi-sessio-exclusiva-per-a-centres-educatius",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Generació Participa"
+   }
+  },
+  {
+   "t": "Postfunció amb Miquel Missé sobre El Gegant del Pi",
+   "d": "2026-11-27",
+   "h": "12:20",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/postfuncio-amb-miquel-misse-sobre-el-gegant-del-pi",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Programació OFF Generació Participa"
    }
   },
   {
@@ -1904,6 +2224,36 @@
    }
   },
   {
+   "t": "De París a Cerdanyola. Trobada oberta al veïnat",
+   "d": "2026-11-27",
+   "h": "18:30",
+   "v": "AVV Cerdanyola (C. València",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/de-paris-a-cerdanyola-trobada-oberta-al-veinat",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "El Gegant del Pi",
+   "d": "2026-11-27",
+   "h": "18:30",
+   "v": "Centre Civic Espai Gatassa- c. de Josep Montserrat Quadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/el-gegant-del-pi",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Generació Participa"
+   }
+  },
+  {
    "t": "Mindfulness para la salud i el bienestar",
    "d": "2026-11-27",
    "h": "19:00",
@@ -1914,6 +2264,21 @@
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy31_of_mindfulness-para-la-salud-i-el-bienestar",
    "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Caminem per Nosaltres",
+   "d": "2026-11-28",
+   "h": "09:00",
+   "v": "Pàrquing de Cerdanyola (damunt l'escola Camí del Cros)",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/caminem-per-nosaltres-18",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -1961,6 +2326,51 @@
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
+   }
+  },
+  {
+   "t": "Cuidar-nos per cuidar. Lluitem per la fibromiàlgia i la fatiga crònica",
+   "d": "2026-11-28",
+   "h": "18:00",
+   "v": "Teatre Monumental- La Riera",
+   "b": "centre",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/cuidar-nos-per-cuidar-lluitem-per-la-fibromialgia-i-la-fatiga-cronica",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Festival de música i ball"
+   }
+  },
+  {
+   "t": "Teatre \"Gente Bien\" de Santiago Rusiñol",
+   "d": "2026-11-28",
+   "h": "18:00",
+   "v": "FOMENT MATARONI-C/ Nou",
+   "b": "diversos",
+   "c": "escena",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/teatre-gente-bien-de-santiago-rusinol",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Discconcert",
+   "d": "2026-11-29",
+   "h": "17:00",
+   "v": "Carrer Serra i Moret",
+   "b": "diversos",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/discconcert-1",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Oci inclusiu"
    }
   },
   {
@@ -2507,13 +2917,13 @@
    "t": "Xerrada sobre l'osteoporosi",
    "d": "2026-12-01",
    "h": "18:00",
-   "v": "Centre Cívic Espai Gatassa",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
    "b": "cerda",
    "c": "taller",
    "k": false,
    "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/xerrada-sobre-losteoporosi-1",
-   "s": "Xarxa d'Equipaments Cívics",
+   "u": "https://entitatsmataro.cat/agenda/xerrada-sobre-losteoporosi",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -2969,6 +3379,21 @@
    }
   },
   {
+   "t": "ReVIU al Centre Cívic Pla d'en Boet",
+   "d": "2026-12-03",
+   "h": "17:30",
+   "v": "Centre Cívic Pla d'en Boet",
+   "b": "boet",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy6_of_reviu-al-centre-civic-rocafonda-4",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Taller d'autoreparació d'aparells elèctrics i electrònics"
+   }
+  },
+  {
    "t": "Classes de ball Country",
    "d": "2026-12-03",
    "h": "18:00",
@@ -3134,6 +3559,22 @@
    }
   },
   {
+   "t": "Arcana",
+   "d": "2026-12-04",
+   "h": "",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/arcana",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Exposició d'il·lustracions digitals de manga i fantasia"
+   },
+   "e": "2027-01-09"
+  },
+  {
    "t": "Balls en línia",
    "d": "2026-12-04",
    "h": "10:00",
@@ -3249,6 +3690,51 @@
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_balls-de-salo-1",
    "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Cicle de música de cambra La Modesta",
+   "d": "2026-12-05",
+   "h": "18:30",
+   "v": "Ateneu",
+   "b": "centre",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/cicle-de-musica-de-cambra-la-modesta-temporada-v-1",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Temporada V"
+   }
+  },
+  {
+   "t": "Canvi de cromos i cartes",
+   "d": "2026-12-06",
+   "h": "10:00",
+   "v": "Casa de la Palmera",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/canvi-de-cromos-i-cartes",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Futbol Mascuí i Femení // La lliga 2026-27."
+   }
+  },
+  {
+   "t": "Intercanvi de cromos",
+   "d": "2026-12-06",
+   "h": "10:00",
+   "v": "Casa de la Palmera: C",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy_of_intercanvi-de-cromos-7",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -3839,6 +4325,21 @@
    }
   },
   {
+   "t": "Cafè Comunitari",
+   "d": "2026-12-11",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy8_of_cafe-comunitari-10",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Conversem, compartim i ens cuidem"
+   }
+  },
+  {
    "t": "Balls en línia",
    "d": "2026-12-11",
    "h": "10:00",
@@ -3929,6 +4430,21 @@
    }
   },
   {
+   "t": "Flamenco i Punt",
+   "d": "2026-12-11",
+   "h": "21:00",
+   "v": "Casal L'Aliança de Mataró",
+   "b": "centre",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy3_of_flamenc-i-punt",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Ball dissabtes",
    "d": "2026-12-12",
    "h": "16:00",
@@ -3954,6 +4470,21 @@
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_balls-de-salo-1",
    "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Concert “Al voltant de Nadal”",
+   "d": "2026-12-13",
+   "h": "12:00",
+   "v": "Les Esmandies Casal de Barri",
+   "b": "diversos",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/concert-201cal-voltant-de-nadal201d",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -4799,6 +5330,52 @@
    }
   },
   {
+   "t": "Inscripcions cursos de català",
+   "d": "2026-12-17",
+   "h": "",
+   "v": "Centre Cívic Cerdanyola (Pg. de Ramon Berenguer III",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/inscripcions-cursos-de-catala",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-19"
+  },
+  {
+   "t": "És Nadal i a casa hi ha una cadira buida",
+   "d": "2026-12-17",
+   "h": "17:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/es-nadal-i-a-casa-hi-ha-una-cadira-buida-1",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Cuidem junts: Alimentació complementària",
+   "d": "2026-12-17",
+   "h": "17:30",
+   "v": "Centre Cívic Pla d'en Boet",
+   "b": "boet",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy2_of_cuidem-junts-alimentacio-a-partir-de-lany-i-higiene-bucodental",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "3a edició de l'Escola de Salut de Pediatria"
+   }
+  },
+  {
    "t": "Club Gomet Vermell",
    "d": "2026-12-18",
    "h": "17:30",
@@ -4876,6 +5453,36 @@
    }
   },
   {
+   "t": "Canvi de cromos i cartes",
+   "d": "2027-01-03",
+   "h": "10:00",
+   "v": "Casa de la Palmera",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy_of_canvi-de-cromos-i-cartes",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Futbol Mascuí i Femení // La lliga 2026-27."
+   }
+  },
+  {
+   "t": "Intercanvi de cromos",
+   "d": "2027-01-03",
+   "h": "10:00",
+   "v": "Casa de la Palmera: C",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy2_of_intercanvi-de-cromos-7",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "La Pompeu en Joc",
    "d": "2027-01-04",
    "h": "10:30",
@@ -4890,6 +5497,81 @@
     "ca": ""
    },
    "e": "2027-01-07"
+  },
+  {
+   "t": "Cuidem junts: Primers auxilis en pediatria",
+   "d": "2027-01-20",
+   "h": "17:30",
+   "v": "Centre Cívic Pla d'en Boet",
+   "b": "boet",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy3_of_cuidem-junts-alimentacio-a-partir-de-lany-i-higiene-bucodental",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "3a edició de l'Escola de Salut de Pediatria"
+   }
+  },
+  {
+   "t": "Canvi de cromos i cartes",
+   "d": "2027-02-07",
+   "h": "10:00",
+   "v": "Casa de la Palmera",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy2_of_canvi-de-cromos-i-cartes",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Futbol Mascuí i Femení // La lliga 2026-27."
+   }
+  },
+  {
+   "t": "Intercanvi de cromos",
+   "d": "2027-02-07",
+   "h": "10:00",
+   "v": "Casa de la Palmera: C",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy3_of_intercanvi-de-cromos-7",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Cicle de música de cambra La Modesta",
+   "d": "2027-02-13",
+   "h": "18:30",
+   "v": "Ateneu",
+   "b": "centre",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/cicle-de-musica-de-cambra-la-modesta-temporada-v-2",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Temporada V"
+   }
+  },
+  {
+   "t": "Cuidem junts: Com resoldre situacions agudes en els infants",
+   "d": "2027-02-17",
+   "h": "17:30",
+   "v": "Centre Cívic Pla d'en Boet",
+   "b": "boet",
+   "c": "cultura",
+   "k": true,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy4_of_cuidem-junts-alimentacio-a-partir-de-lany-i-higiene-bucodental",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "3a edició de l'Escola de Salut de Pediatria"
+   }
   }
  ]
 }
