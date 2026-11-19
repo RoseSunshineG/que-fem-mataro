@@ -1,0 +1,45 @@
+name: Actualitzar agenda
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # cada dia cap a les 5:17 (hivern) / 6:17 (estiu), hora de Mataró
+  workflow_dispatch:        # botó "Run workflow" per llançar-lo a mà
+  push:
+    paths:
+      - "data/manual.json"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-agenda
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Llegir les agendes
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: python scripts/update.py
+
+      - name: Desar els canvis
+        run: |
+          git config user.name "que-fem-mataro-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Cap canvi a l'agenda avui."
+          else
+            git commit -m "Agenda actualitzada $(date -u +%Y-%m-%d)"
+            git push
+          fi
