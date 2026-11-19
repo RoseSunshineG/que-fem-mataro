@@ -341,10 +341,10 @@ function render(){
  $("out").innerHTML=Object.keys(groups).map(d=>{const dt=new Date(d+"T00:00:00Z");
   return `<section class="day"><div class="date"><div class="dw">${fW.format(dt).replace(".","")}</div><div class="dn">${dt.getUTCDate()}</div><div class="dm">${fM.format(dt).replace(".","")}</div></div><div class="list">`+
   groups[d].map(e=>{const note=e.n&&XL.n[e.n]?` <span class="pnote">${XL.n[e.n]}</span>`:"";const ds=desc(e);
-   const acc=e.acc?`<div class="acc">${e.acc.f.map(f=>`<span class="ai ok" title="${XL.f[f]}" aria-label="${XL.f[f]}">${IC[f]}</span>`).join("")}<span class="accsrc">${XL.via}: <a href="${esc(e.acc.u)}" target="_blank" rel="noopener">${esc(e.acc.s)}</a></span></div>`:"";
+   const acc=e.acc?`<div class="acc">${e.acc.f.map(f=>`<span class="ai ok" title="${XL.f[f]}" aria-label="${XL.f[f]}">${IC[f]}</span>`).join("")}<span class="accsrc">${XL.via}: ${e.acc.u?`<a href="${esc(e.acc.u)}" target="_blank" rel="noopener">${esc(e.acc.s)}</a>`:esc(e.acc.s)}</span></div>`:"";
    return `<article class="ev" id="ev-${e.id}"><div class="meta">${e.h?`<span class="time">${esc(e.h)}</span>`:""}<span class="cat">${CATS[e.c]?CATS[e.c][st.lang]:""}</span>${e.k?`<span class="kid">${XL.kid}</span>`:""}${e.e?`<span class="multi">${L.until} ${fL.format(new Date(e.e+"T00:00:00Z"))}</span>`:""}</div>
    <h3>${esc(ttl(e))}</h3><div class="meta"><span>${esc(e.v)}</span><span>·</span><span>${BARRIS[e.b]||BARRIS.diversos}</span></div>${ds?`<p>${esc(ds)}</p>`:""}${acc}
-   <div class="foot"><span>${priceTag(e,L)}${note}</span><a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${L.more} · ${esc(e.s)} ↗</a></div></article>`;}).join("")+`</div></section>`;}).join("");
+   <div class="foot"><span>${priceTag(e,L)}${note}</span>${e.u?`<a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${L.more} · ${esc(e.s)} ↗</a>`:`<span class="multi">${esc(e.s)}</span>`}</div></article>`;}).join("")+`</div></section>`;}).join("");
 }
 function renderShelves(L,S,q){
  const mag=LOADED&&st.when==="all"&&!st.free&&!st.kids&&!st.wheel&&!st.cat&&!st.barri&&!q;
@@ -395,7 +395,7 @@ $("q").addEventListener("input",e=>{st.q=e.target.value;render();});
 render();
 fetch("data/events.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
  UPDATED=d.updated;
- E=(d.events||[]).map((e,i)=>({...e,id:i,acc:VENUE_ACC[e.v]||null}));
+ E=(d.events||[]).map((e,i)=>({...e,id:i,acc:e.acc||VENUE_ACC[e.v]||null}));
 }).catch(err=>console.error("No s'ha pogut carregar l'agenda",err)).finally(()=>{LOADED=true;render();});
 </script>
 </body>
