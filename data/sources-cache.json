@@ -3,12 +3,12 @@
  "plone:entitats": [],
  "plone:civics": [
   {
-   "t": "Indexes all content in the site",
+   "t": "Dones Compartint",
    "d": "2026-10-06",
    "h": "",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "cultura",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/dones-compartint",
@@ -19,10 +19,10 @@
    "e": "2026-12-22"
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-11-19",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -34,10 +34,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga dijous matí",
    "d": "2026-11-19",
    "h": "09:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -49,10 +49,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball en Línea",
    "d": "2026-11-19",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -64,10 +64,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai Chi",
    "d": "2026-11-19",
    "h": "10:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -79,10 +79,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pachwork avançat",
    "d": "2026-11-19",
    "h": "15:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -94,10 +94,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-11-19",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -109,10 +109,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Talent Urbà",
    "d": "2026-11-19",
    "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -124,12 +124,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de ball Country",
    "d": "2026-11-19",
    "h": "18:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_classes-de-ball-coutry",
@@ -139,10 +139,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-11-19",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -154,10 +154,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-11-19",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -169,10 +169,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-11-19",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -184,10 +184,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reiki",
    "d": "2026-11-19",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -199,7 +199,7 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes per a adults",
    "d": "2026-11-19",
    "h": "19:00",
    "v": "Plaça de Tirant lo Blanc",
@@ -214,10 +214,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-11-19",
    "h": "19:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -229,10 +229,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-11-19",
    "h": "20:00",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -244,10 +244,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de zumba",
    "d": "2026-11-19",
    "h": "20:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -259,12 +259,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-11-20",
    "h": "10:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy126_of_creacio-despectacles-de-teatre",
@@ -274,10 +274,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls en línia",
    "d": "2026-11-20",
    "h": "10:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -289,12 +289,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-11-20",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_coral",
@@ -304,10 +304,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-11-20",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -319,10 +319,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell avançat",
    "d": "2026-11-20",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -334,10 +334,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Talent Urbà",
    "d": "2026-11-20",
    "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -349,10 +349,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness para la salud i el bienestar",
    "d": "2026-11-20",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -364,10 +364,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball dissabtes",
    "d": "2026-11-21",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -379,10 +379,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls de saló",
    "d": "2026-11-21",
    "h": "17:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -394,10 +394,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-11-23",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -409,10 +409,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-11-23",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -424,10 +424,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-11-23",
    "h": "10:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -439,10 +439,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai-txi",
    "d": "2026-11-23",
    "h": "11:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -454,12 +454,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-11-23",
    "h": "11:15",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy127_of_creacio-despectacles-de-teatre",
@@ -469,10 +469,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Punt de creu iugoslau",
    "d": "2026-11-23",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -484,12 +484,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-11-23",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_coral",
@@ -499,10 +499,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-11-23",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -514,10 +514,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-11-23",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -529,10 +529,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-11-23",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -544,10 +544,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-11-23",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -559,10 +559,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball Country",
    "d": "2026-11-23",
    "h": "18:00",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -574,10 +574,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-11-23",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -589,13 +589,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Àrab infants",
    "d": "2026-11-23",
    "h": "18:00",
-   "v": "Cebtre Cívic Cerdanyola - Pg. de Ramon Berenguer III",
+   "v": "Cebtre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
-   "k": false,
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy20_of_arab-infants",
    "s": "Xarxa d'Equipaments Cívics",
@@ -604,10 +604,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de màgia",
    "d": "2026-11-23",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -619,10 +619,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Flamenc",
    "d": "2026-11-23",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -634,10 +634,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-11-23",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -649,12 +649,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Pintura",
    "d": "2026-11-23",
    "h": "19:00",
-   "v": "Espai Jove Pla d'en Boet - Ronda Francesc Macià",
+   "v": "Espai Jove Pla d'en Boet",
    "b": "boet",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_taller-de-pintura",
@@ -664,10 +664,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-11-23",
    "h": "19:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -679,10 +679,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de sevillanes",
    "d": "2026-11-23",
    "h": "19:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -694,10 +694,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-11-23",
    "h": "20:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -709,10 +709,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-11-24",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -724,10 +724,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga matins",
    "d": "2026-11-24",
    "h": "09:15",
-   "v": "Centre Cívic Rocafonda - C/ Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -739,10 +739,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell intermedi",
    "d": "2026-11-24",
    "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -754,10 +754,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-11-24",
    "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -769,10 +769,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-11-24",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -784,10 +784,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dibuix i pintura",
    "d": "2026-11-24",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -799,10 +799,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pintura a l'oli",
    "d": "2026-11-24",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -814,12 +814,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Club de lectura en català",
    "d": "2026-11-24",
    "h": "15:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "biblio",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy60_of_dones-comartint",
@@ -829,10 +829,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Cuina",
    "d": "2026-11-24",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -844,10 +844,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Activitats de prevenció i reparació de violència masclista",
    "d": "2026-11-24",
    "h": "16:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -859,10 +859,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-11-24",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -874,10 +874,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ajuda a afectats de fibromiàlgia i fatiga crònica",
    "d": "2026-11-24",
    "h": "17:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -889,13 +889,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball Urbà Infantil",
    "d": "2026-11-24",
    "h": "17:30",
    "v": "plaça de Tirant lo Blanc",
    "b": "diversos",
-   "c": "taller",
-   "k": false,
+   "c": "familia",
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy16_of_ball-urba-infantil",
    "s": "Xarxa d'Equipaments Cívics",
@@ -904,10 +904,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Equilibri i salut",
    "d": "2026-11-24",
    "h": "18:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -919,12 +919,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-11-24",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy128_of_creacio-despectacles-de-teatre",
@@ -934,12 +934,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dones compartint",
    "d": "2026-11-24",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - Carrer del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "cultura",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_dones-comartint",
@@ -949,10 +949,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de màgia",
    "d": "2026-11-24",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -964,10 +964,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanas",
    "d": "2026-11-24",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -979,10 +979,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-11-24",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -994,10 +994,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-11-24",
    "h": "19:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1009,10 +1009,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de sardanes",
    "d": "2026-11-24",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1024,10 +1024,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-11-25",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1039,10 +1039,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-11-25",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1054,12 +1054,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de teatre comunitari",
    "d": "2026-11-25",
    "h": "12:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy18_of_taller-de-teatre-comunitari",
@@ -1069,10 +1069,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Patchwork",
    "d": "2026-11-25",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -1084,10 +1084,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-11-25",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1099,10 +1099,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-11-25",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1114,10 +1114,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-11-25",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1129,10 +1129,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-11-25",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1144,12 +1144,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller radio teatre",
    "d": "2026-11-25",
    "h": "17:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_taller-radio-teatre",
@@ -1159,10 +1159,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Zumba",
    "d": "2026-11-25",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1174,10 +1174,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Talent Urbà",
    "d": "2026-11-25",
    "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1189,10 +1189,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-11-25",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1204,10 +1204,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-11-25",
    "h": "18:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1219,10 +1219,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball de Saló",
    "d": "2026-11-25",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1234,10 +1234,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-11-25",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1249,7 +1249,7 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reiki",
    "d": "2026-11-25",
    "h": "19:00",
    "v": "Mataró",
@@ -1264,10 +1264,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-11-25",
    "h": "19:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1279,10 +1279,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Salsa",
    "d": "2026-11-25",
    "h": "20:30",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1294,10 +1294,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-11-26",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -1309,10 +1309,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga dijous matí",
    "d": "2026-11-26",
    "h": "09:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1324,10 +1324,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball en Línea",
    "d": "2026-11-26",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1339,10 +1339,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai Chi",
    "d": "2026-11-26",
    "h": "10:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1354,10 +1354,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pachwork avançat",
    "d": "2026-11-26",
    "h": "15:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1369,10 +1369,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Congrés literari",
    "d": "2026-11-26",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1384,10 +1384,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-11-26",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1399,10 +1399,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Talent Urbà",
    "d": "2026-11-26",
    "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1414,12 +1414,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de ball Country",
    "d": "2026-11-26",
    "h": "18:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy30_of_classes-de-ball-coutry",
@@ -1429,10 +1429,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-11-26",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -1444,10 +1444,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-11-26",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1459,10 +1459,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-11-26",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1474,10 +1474,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reiki",
    "d": "2026-11-26",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1489,7 +1489,7 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes per a adults",
    "d": "2026-11-26",
    "h": "19:00",
    "v": "Plaça de Tirant lo Blanc",
@@ -1504,10 +1504,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-11-26",
    "h": "19:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1519,10 +1519,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-11-26",
    "h": "20:00",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1534,10 +1534,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de zumba",
    "d": "2026-11-26",
    "h": "20:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1549,12 +1549,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-11-27",
    "h": "10:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy129_of_creacio-despectacles-de-teatre",
@@ -1564,10 +1564,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls en línia",
    "d": "2026-11-27",
    "h": "10:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1579,12 +1579,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-11-27",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy50_of_coral",
@@ -1594,10 +1594,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-11-27",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1609,10 +1609,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell avançat",
    "d": "2026-11-27",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1624,10 +1624,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Talent Urbà",
    "d": "2026-11-27",
    "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1639,10 +1639,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness para la salud i el bienestar",
    "d": "2026-11-27",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1654,10 +1654,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball dissabtes",
    "d": "2026-11-28",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1669,10 +1669,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls de saló",
    "d": "2026-11-28",
    "h": "17:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1684,10 +1684,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-11-30",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1699,10 +1699,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-11-30",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1714,10 +1714,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-11-30",
    "h": "10:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1729,10 +1729,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai-txi",
    "d": "2026-11-30",
    "h": "11:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1744,12 +1744,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-11-30",
    "h": "11:15",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy130_of_creacio-despectacles-de-teatre",
@@ -1759,10 +1759,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Punt de creu iugoslau",
    "d": "2026-11-30",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1774,12 +1774,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-11-30",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy51_of_coral",
@@ -1789,10 +1789,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball en línia",
    "d": "2026-11-30",
    "h": "16:30",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1804,10 +1804,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-11-30",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -1819,10 +1819,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-11-30",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1834,10 +1834,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-11-30",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1849,10 +1849,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-11-30",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1864,10 +1864,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball Country",
    "d": "2026-11-30",
    "h": "18:00",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1879,10 +1879,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-11-30",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -1894,13 +1894,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Àrab infants",
    "d": "2026-11-30",
    "h": "18:00",
-   "v": "Cebtre Cívic Cerdanyola - Pg. de Ramon Berenguer III",
+   "v": "Cebtre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
-   "k": false,
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy21_of_arab-infants",
    "s": "Xarxa d'Equipaments Cívics",
@@ -1909,10 +1909,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de màgia",
    "d": "2026-11-30",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -1924,10 +1924,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Flamenc",
    "d": "2026-11-30",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1939,10 +1939,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-11-30",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1954,10 +1954,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-11-30",
    "h": "19:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -1969,12 +1969,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Pintura",
    "d": "2026-11-30",
    "h": "19:00",
-   "v": "Espai Jove Pla d'en Boet - Ronda Francesc Macià",
+   "v": "Espai Jove Pla d'en Boet",
    "b": "boet",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_taller-de-pintura",
@@ -1984,10 +1984,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de sevillanes",
    "d": "2026-11-30",
    "h": "19:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -1999,10 +1999,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-11-30",
    "h": "20:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2014,10 +2014,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-12-01",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -2029,10 +2029,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga matins",
    "d": "2026-12-01",
    "h": "09:15",
-   "v": "Centre Cívic Rocafonda - C/ Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2044,10 +2044,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell intermedi",
    "d": "2026-12-01",
    "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2059,10 +2059,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-12-01",
    "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2074,10 +2074,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-12-01",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2089,10 +2089,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dibuix i pintura",
    "d": "2026-12-01",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -2104,10 +2104,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pintura a l'oli",
    "d": "2026-12-01",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -2119,12 +2119,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Club de lectura en català",
    "d": "2026-12-01",
    "h": "15:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "biblio",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy61_of_dones-comartint",
@@ -2134,10 +2134,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Cuina",
    "d": "2026-12-01",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2149,10 +2149,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Activitats de prevenció i reparació de violència masclista",
    "d": "2026-12-01",
    "h": "16:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2164,10 +2164,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-12-01",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2179,10 +2179,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ajuda a afectats de fibromiàlgia i fatiga crònica",
    "d": "2026-12-01",
    "h": "17:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2194,13 +2194,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball Urbà Infantil",
    "d": "2026-12-01",
    "h": "17:30",
    "v": "plaça de Tirant lo Blanc",
    "b": "diversos",
-   "c": "taller",
-   "k": false,
+   "c": "familia",
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy19_of_ball-urba-infantil",
    "s": "Xarxa d'Equipaments Cívics",
@@ -2209,10 +2209,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Equilibri i salut",
    "d": "2026-12-01",
    "h": "18:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2224,12 +2224,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-12-01",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy131_of_creacio-despectacles-de-teatre",
@@ -2239,10 +2239,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Xerrada sobre l'osteoporosi",
    "d": "2026-12-01",
    "h": "18:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2254,10 +2254,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de màgia",
    "d": "2026-12-01",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2269,12 +2269,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dones compartint",
    "d": "2026-12-01",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - Carrer del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "cultura",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy12_of_dones-comartint",
@@ -2284,10 +2284,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanas",
    "d": "2026-12-01",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2299,10 +2299,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-01",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2314,10 +2314,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de sardanes",
    "d": "2026-12-01",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2329,10 +2329,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-12-01",
    "h": "19:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2344,10 +2344,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-12-02",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2359,10 +2359,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-12-02",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2374,12 +2374,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de teatre comunitari",
    "d": "2026-12-02",
    "h": "12:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy19_of_taller-de-teatre-comunitari",
@@ -2389,10 +2389,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Patchwork",
    "d": "2026-12-02",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -2404,10 +2404,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-12-02",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2419,10 +2419,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-12-02",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2434,10 +2434,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-12-02",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2449,10 +2449,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-12-02",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2464,10 +2464,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Zumba",
    "d": "2026-12-02",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2479,12 +2479,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller radio teatre",
    "d": "2026-12-02",
    "h": "17:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_taller-radio-teatre",
@@ -2494,10 +2494,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Talent Urbà",
    "d": "2026-12-02",
    "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2509,10 +2509,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-12-02",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2524,10 +2524,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-12-02",
    "h": "18:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2539,10 +2539,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball de Saló",
    "d": "2026-12-02",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2554,10 +2554,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-02",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2569,10 +2569,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-12-02",
    "h": "19:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2584,10 +2584,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Salsa",
    "d": "2026-12-02",
    "h": "20:30",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2599,10 +2599,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-12-03",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -2614,10 +2614,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga dijous matí",
    "d": "2026-12-03",
    "h": "09:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2629,10 +2629,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball en Línea",
    "d": "2026-12-03",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2644,10 +2644,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai Chi",
    "d": "2026-12-03",
    "h": "10:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2659,10 +2659,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pachwork avançat",
    "d": "2026-12-03",
    "h": "15:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2674,10 +2674,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-12-03",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2689,10 +2689,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller art de viure",
    "d": "2026-12-03",
    "h": "18:00",
-   "v": "Centre Cívic Espai Gatassa - c/ de Josep Monserrat i Cuadrada",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2704,13 +2704,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Grup d'ajuda mutua de familiars",
    "d": "2026-12-03",
    "h": "18:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
-   "c": "taller",
-   "k": false,
+   "c": "familia",
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy6_of_grup-dajuda-mutua-de-familiars",
    "s": "Xarxa d'Equipaments Cívics",
@@ -2719,12 +2719,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de ball Country",
    "d": "2026-12-03",
    "h": "18:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy31_of_classes-de-ball-coutry",
@@ -2734,10 +2734,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-12-03",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -2749,10 +2749,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-12-03",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2764,10 +2764,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reiki",
    "d": "2026-12-03",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2779,10 +2779,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-03",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2794,7 +2794,7 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes per a adults",
    "d": "2026-12-03",
    "h": "19:00",
    "v": "Plaça de Tirant lo Blanc",
@@ -2809,10 +2809,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-12-03",
    "h": "19:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2824,10 +2824,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-12-03",
    "h": "20:00",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -2839,10 +2839,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de zumba",
    "d": "2026-12-03",
    "h": "20:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2854,10 +2854,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls en línia",
    "d": "2026-12-04",
    "h": "10:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2869,12 +2869,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-12-04",
    "h": "10:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy132_of_creacio-despectacles-de-teatre",
@@ -2884,12 +2884,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-12-04",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy52_of_coral",
@@ -2899,10 +2899,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-12-04",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2914,10 +2914,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell avançat",
    "d": "2026-12-04",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2929,10 +2929,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness para la salud i el bienestar",
    "d": "2026-12-04",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -2944,10 +2944,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball dissabtes",
    "d": "2026-12-05",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2959,10 +2959,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls de saló",
    "d": "2026-12-05",
    "h": "17:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -2974,10 +2974,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-12-07",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -2989,10 +2989,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-12-07",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3004,10 +3004,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-12-07",
    "h": "10:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3019,12 +3019,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-12-07",
    "h": "11:15",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy133_of_creacio-despectacles-de-teatre",
@@ -3034,10 +3034,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga matins",
    "d": "2026-12-08",
    "h": "09:15",
-   "v": "Centre Cívic Rocafonda - C/ Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3049,12 +3049,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dones compartint",
    "d": "2026-12-08",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - Carrer del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "cultura",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_dones-comartint",
@@ -3064,10 +3064,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-12-09",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3079,10 +3079,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-12-09",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3094,12 +3094,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de teatre comunitari",
    "d": "2026-12-09",
    "h": "12:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy_of_taller-de-teatre-comunitari",
@@ -3109,10 +3109,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Patchwork",
    "d": "2026-12-09",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -3124,10 +3124,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-12-09",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3139,10 +3139,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-12-09",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3154,10 +3154,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-12-09",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3169,10 +3169,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-12-09",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3184,10 +3184,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Zumba",
    "d": "2026-12-09",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3199,12 +3199,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller radio teatre",
    "d": "2026-12-09",
    "h": "17:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy24_of_taller-radio-teatre",
@@ -3214,10 +3214,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-12-09",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3229,10 +3229,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-12-09",
    "h": "18:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3244,10 +3244,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball de Saló",
    "d": "2026-12-09",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3259,10 +3259,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-09",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3274,7 +3274,7 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reiki",
    "d": "2026-12-09",
    "h": "19:00",
    "v": "Mataró",
@@ -3289,10 +3289,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-12-09",
    "h": "19:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3304,10 +3304,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Salsa",
    "d": "2026-12-09",
    "h": "20:30",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3319,10 +3319,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-12-10",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -3334,10 +3334,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga dijous matí",
    "d": "2026-12-10",
    "h": "09:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3349,10 +3349,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball en Línea",
    "d": "2026-12-10",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3364,10 +3364,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai Chi",
    "d": "2026-12-10",
    "h": "10:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3379,10 +3379,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pachwork avançat",
    "d": "2026-12-10",
    "h": "15:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3394,10 +3394,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-12-10",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3409,12 +3409,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de ball Country",
    "d": "2026-12-10",
    "h": "18:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy32_of_classes-de-ball-coutry",
@@ -3424,10 +3424,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-12-10",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -3439,10 +3439,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-12-10",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3454,12 +3454,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Poesia",
    "d": "2026-12-10",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy2_of_taller-de-poesia",
@@ -3469,10 +3469,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reiki",
    "d": "2026-12-10",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3484,10 +3484,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-10",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3499,7 +3499,7 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes per a adults",
    "d": "2026-12-10",
    "h": "19:00",
    "v": "Plaça de Tirant lo Blanc",
@@ -3514,10 +3514,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-12-10",
    "h": "19:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3529,10 +3529,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de zumba",
    "d": "2026-12-10",
    "h": "20:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3544,10 +3544,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-12-10",
    "h": "20:00",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3559,12 +3559,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-12-11",
    "h": "10:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_creacio-despectacles-de-teatre",
@@ -3574,10 +3574,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls en línia",
    "d": "2026-12-11",
    "h": "10:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3589,12 +3589,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-12-11",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy53_of_coral",
@@ -3604,10 +3604,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-12-11",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3619,10 +3619,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell avançat",
    "d": "2026-12-11",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3634,10 +3634,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness para la salud i el bienestar",
    "d": "2026-12-11",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3649,10 +3649,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball dissabtes",
    "d": "2026-12-12",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3664,10 +3664,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Balls de saló",
    "d": "2026-12-12",
    "h": "17:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3679,10 +3679,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga",
    "d": "2026-12-14",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3694,10 +3694,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-12-14",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3709,10 +3709,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-12-14",
    "h": "10:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3724,10 +3724,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Tai-txi",
    "d": "2026-12-14",
    "h": "11:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3739,12 +3739,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-12-14",
    "h": "11:15",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_creacio-despectacles-de-teatre",
@@ -3754,10 +3754,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Punt de creu iugoslau",
    "d": "2026-12-14",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3769,12 +3769,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Coral",
    "d": "2026-12-14",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "musica",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy54_of_coral",
@@ -3784,10 +3784,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-12-14",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3799,10 +3799,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball en línia",
    "d": "2026-12-14",
    "h": "16:30",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3814,10 +3814,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-12-14",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -3829,10 +3829,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-12-14",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3844,10 +3844,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-12-14",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3859,10 +3859,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Obrador Poli-Art Molins",
    "d": "2026-12-14",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
    "c": "cultura",
    "k": false,
@@ -3874,10 +3874,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball Country",
    "d": "2026-12-14",
    "h": "18:00",
-   "v": "Centre Cívic Rocafonda - c. Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3889,13 +3889,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Àrab infants",
    "d": "2026-12-14",
    "h": "18:00",
-   "v": "Cebtre Cívic Cerdanyola - Pg. de Ramon Berenguer III",
+   "v": "Cebtre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
-   "k": false,
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_arab-infants",
    "s": "Xarxa d'Equipaments Cívics",
@@ -3904,10 +3904,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de màgia",
    "d": "2026-12-14",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -3919,10 +3919,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Flamenc",
    "d": "2026-12-14",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet -  c. Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3934,10 +3934,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-14",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3949,10 +3949,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mindfulness",
    "d": "2026-12-14",
    "h": "19:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -3964,12 +3964,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Pintura",
    "d": "2026-12-14",
    "h": "19:00",
-   "v": "Espai Jove Pla d'en Boet - Ronda Francesc Macià",
+   "v": "Espai Jove Pla d'en Boet",
    "b": "boet",
-   "c": "cultura",
+   "c": "taller",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy16_of_taller-de-pintura",
@@ -3979,10 +3979,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball de sevillanes",
    "d": "2026-12-14",
    "h": "19:15",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -3994,10 +3994,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanes",
    "d": "2026-12-14",
    "h": "20:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -4009,10 +4009,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Mitja i ganxet",
    "d": "2026-12-15",
    "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -4024,10 +4024,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ioga matins",
    "d": "2026-12-15",
    "h": "09:15",
-   "v": "Centre Cívic Rocafonda - C/ Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -4039,10 +4039,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de conversa d'anglès nivell intermedi",
    "d": "2026-12-15",
    "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4054,10 +4054,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-12-15",
    "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4069,10 +4069,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-12-15",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4084,10 +4084,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dibuix i pintura",
    "d": "2026-12-15",
    "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -4099,10 +4099,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Pintura a l'oli",
    "d": "2026-12-15",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -4114,12 +4114,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Club de lectura en català",
    "d": "2026-12-15",
    "h": "15:30",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "biblio",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy62_of_dones-comartint",
@@ -4129,10 +4129,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Cuina",
    "d": "2026-12-15",
    "h": "15:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4144,10 +4144,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Activitats de prevenció i reparació de violència masclista",
    "d": "2026-12-15",
    "h": "16:15",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4159,10 +4159,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de català de CNL",
    "d": "2026-12-15",
    "h": "16:30",
-   "v": "Centre Civíc Cerdanyola - Pg",
+   "v": "Centre Civíc Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4174,10 +4174,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ajuda a afectats de fibromiàlgia i fatiga crònica",
    "d": "2026-12-15",
    "h": "17:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4189,13 +4189,13 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Ball Urbà Infantil",
    "d": "2026-12-15",
    "h": "17:30",
    "v": "plaça de Tirant lo Blanc",
    "b": "diversos",
-   "c": "taller",
-   "k": false,
+   "c": "familia",
+   "k": true,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy20_of_ball-urba-infantil",
    "s": "Xarxa d'Equipaments Cívics",
@@ -4204,10 +4204,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Equilibri i salut",
    "d": "2026-12-15",
    "h": "18:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4219,12 +4219,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Creació d'espectacles de teatre",
    "d": "2026-12-15",
    "h": "18:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy12_of_creacio-despectacles-de-teatre",
@@ -4234,10 +4234,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de màgia",
    "d": "2026-12-15",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4249,12 +4249,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Dones compartint",
    "d": "2026-12-15",
    "h": "18:30",
-   "v": "Centre Cívic Rocafonda - Carrer del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
-   "c": "taller",
+   "c": "cultura",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_dones-comartint",
@@ -4264,10 +4264,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Sevillanas",
    "d": "2026-12-15",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4279,10 +4279,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Formació",
    "d": "2026-12-15",
    "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -4294,10 +4294,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimnàstica",
    "d": "2026-12-15",
    "h": "19:00",
-   "v": "Centre Cívic Pla d'en Boet - c",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -4309,10 +4309,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de sardanes",
    "d": "2026-12-15",
    "h": "19:00",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4324,10 +4324,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Aula de recerca de feina",
    "d": "2026-12-16",
    "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4339,10 +4339,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Autonomia de la Llar",
    "d": "2026-12-16",
    "h": "10:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4354,12 +4354,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de teatre comunitari",
    "d": "2026-12-16",
    "h": "12:00",
-   "v": "Centre Cívic Molins - c",
+   "v": "Centre Cívic Molins",
    "b": "molins",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy2_of_taller-de-teatre-comunitari",
@@ -4369,10 +4369,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Patchwork",
    "d": "2026-12-16",
    "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "cultura",
    "k": false,
@@ -4384,10 +4384,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Curs de Català",
    "d": "2026-12-16",
    "h": "16:30",
-   "v": "Centre Cívic Pla d'en Boet - c. de Juan Sebastián Elcano",
+   "v": "Centre Cívic Pla d'en Boet",
    "b": "boet",
    "c": "taller",
    "k": false,
@@ -4399,10 +4399,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Cursos de Català",
    "d": "2026-12-16",
    "h": "16:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4414,10 +4414,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Zumba",
    "d": "2026-12-16",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -4429,10 +4429,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Reforç de català i àrab",
    "d": "2026-12-16",
    "h": "17:00",
-   "v": "Centre Cívic Cerdanyola - Pg. Ramón Berenguer III",
+   "v": "Centre Cívic Cerdanyola",
    "b": "cerda",
    "c": "taller",
    "k": false,
@@ -4444,10 +4444,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Gimdance",
    "d": "2026-12-16",
    "h": "17:00",
-   "v": "Centre Cívic Rocafonda - c/ del Poeta Josep Punsola",
+   "v": "Centre Cívic Rocafonda",
    "b": "roca",
    "c": "taller",
    "k": false,
@@ -4459,12 +4459,12 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller radio teatre",
    "d": "2026-12-16",
    "h": "17:00",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
-   "c": "cultura",
+   "c": "escena",
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy25_of_taller-radio-teatre",
@@ -4474,10 +4474,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Classes de balls de saló en línea",
    "d": "2026-12-16",
    "h": "17:30",
-   "v": "Centre Cívic Cabot i Barba - Plaça Miquel Biada",
+   "v": "Centre Cívic Cabot i Barba",
    "b": "centre",
    "c": "taller",
    "k": false,
@@ -4489,10 +4489,10 @@
    }
   },
   {
-   "t": "Indexes all content in the site",
+   "t": "Taller de Ball de Saló",
    "d": "2026-12-16",
    "h": "18:30",
-   "v": "Centre Cívic Espai Gatassa - c",
+   "v": "Centre Cívic Espai Gatassa",
    "b": "cerda",
    "c": "taller",
    "k": false,
