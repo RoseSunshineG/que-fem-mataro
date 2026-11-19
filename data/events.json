@@ -1,0 +1,61 @@
+{
+ "updated": "2026-11-19T22:09+00:00",
+ "status": {
+  "plone:culturamataro": {
+   "ok": false,
+   "n": 0,
+   "at": null
+  },
+  "plone:entitats": {
+   "ok": false,
+   "n": 0,
+   "at": null
+  },
+  "plone:civics": {
+   "ok": false,
+   "n": 0,
+   "at": null
+  },
+  "diba:actesbiblioteques": {
+   "ok": false,
+   "n": 0,
+   "at": null
+  },
+  "diba:actesmuseus": {
+   "ok": false,
+   "n": 0,
+   "at": null
+  },
+  "diba:escenari": {
+   "ok": false,
+   "n": 0,
+   "at": null
+  }
+ },
+ "events": [
+  {
+   "t": "23a Setmana Cultural de Cerdanyola",
+   "d": "2026-11-13",
+   "e": "2026-11-22",
+   "v": "Diversos indrets",
+   "b": "cerda",
+   "c": "festa",
+   "u": "https://www.culturamataro.cat/agenda-cultura/2026-23a-setmana-cultural-de-cerdanyola",
+   "s": "Cultura Mataró",
+   "tt": {
+    "es": "23.ª Semana Cultural de Cerdanyola",
+    "en": "23rd Cerdanyola Cultural Week",
+    "fr": "23e Semaine culturelle de Cerdanyola"
+   },
+   "x": {
+    "ca": "Deu dies d'activitats culturals al barri de Cerdanyola.",
+    "es": "Diez días de actividades culturales en el barrio de Cerdanyola.",
+    "en": "Ten days of cultural activities in the Cerdanyola neighbourhood.",
+    "fr": "Dix jours d'activités culturelles dans le quartier de Cerdanyola."
+   },
+   "k": false,
+   "p": null,
+   "h": ""
+  }
+ ]
+}

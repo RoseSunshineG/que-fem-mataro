@@ -1,0 +1,23 @@
+{
+ "_ajuda": "Aquí pots afegir esdeveniments a mà (events) o corregir-ne d'automàtics pel títol exacte (overrides). Camps: t títol, d data inici AAAA-MM-DD, e data final (opcional), h hora, v lloc, c categoria (musica, escena, familia, festa, taller, fira, cultura, biblio), k per a infants (true/false), p preu (0 = gratuït, o text '10 €'), u enllaç a la font, s nom de la font, x descripció curta per idioma.",
+ "events": [
+  {
+   "t": "23a Setmana Cultural de Cerdanyola",
+   "d": "2026-11-13",
+   "e": "2026-11-22",
+   "v": "Diversos indrets",
+   "b": "cerda",
+   "c": "festa",
+   "u": "https://www.culturamataro.cat/agenda-cultura/2026-23a-setmana-cultural-de-cerdanyola",
+   "s": "Cultura Mataró",
+   "tt": {"es": "23.ª Semana Cultural de Cerdanyola", "en": "23rd Cerdanyola Cultural Week", "fr": "23e Semaine culturelle de Cerdanyola"},
+   "x": {
+    "ca": "Deu dies d'activitats culturals al barri de Cerdanyola.",
+    "es": "Diez días de actividades culturales en el barrio de Cerdanyola.",
+    "en": "Ten days of cultural activities in the Cerdanyola neighbourhood.",
+    "fr": "Dix jours d'activités culturelles dans le quartier de Cerdanyola."
+   }
+  }
+ ],
+ "overrides": {}
+}
