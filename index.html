@@ -268,7 +268,7 @@ const IC={
 // Accessibilitat verificada per espai (només amb font contrastada)
 const VENUE_ACC={"Teatre Monumental":{f:["wheel","wc","dog"],s:"Apropa Cultura",u:"https://apropacultura.org/sites/default/files/teatre_monumental.pdf"}};
 // Classes setmanals dels centres cívics (es repeteixen; s'actualitzen a mà)
-const WEEK=[
+let WEEK=[
  {t:"Ball en línia",tt:{es:"Baile en línea",en:"Line dancing",fr:"Danse en ligne"},wd:1,h:"16:30",v:"Centre Cívic Rocafonda",b:"roca",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_ball-en-linia-4",x:{ca:"Classes de ball en línia.",es:"Clases de baile en línea.",en:"Line dancing classes.",fr:"Cours de danse en ligne."}},
  {t:"Àrab per a infants",tt:{es:"Árabe para niños",en:"Arabic for kids",fr:"Arabe pour enfants"},wd:1,h:"18:00",v:"Centre Cívic Cerdanyola",b:"cerda",c:"taller",k:true,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy_of_arab-infants",x:{ca:"Classes d'àrab per a nens i nenes.",es:"Clases de árabe para niños y niñas.",en:"Arabic classes for children.",fr:"Cours d'arabe pour enfants."}},
  {t:"Taller de màgia",tt:{es:"Taller de magia",en:"Magic workshop",fr:"Atelier de magie"},wd:1,h:"18:30",v:"Centre Cívic Espai Gatassa",b:"cerda",c:"taller",k:false,u:"https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_taller-de-magia-1",x:{ca:"Aprèn trucs de màgia en grup. També dimarts.",es:"Aprende trucos de magia en grupo. También los martes.",en:"Learn magic tricks in a group. Also on Tuesdays.",fr:"Apprenez des tours de magie. Aussi le mardi."}},
@@ -369,7 +369,7 @@ function renderWeek(XL,q){
  const days=[...new Set(w.map(e=>e.wd))].sort();
  $("week").innerHTML=`<h2>${XL.wkH}</h2><p>${XL.wkP}</p>`+days.map(d=>{const name=fW.format(new Date(Date.UTC(2026,9,25+d)));
   return `<div class="wd"><div class="wn">${name.slice(0,3)}</div><div class="list">`+w.filter(e=>e.wd===d).sort((a,b)=>a.h.localeCompare(b.h)).map(e=>
-  `<article class="ev"><div class="meta"><span class="time">${e.h}</span><span class="cat">${CATS[e.c][st.lang]}</span>${e.k?`<span class="kid">${XL.kid}</span>`:""}</div><h3>${esc(ttl(e))}</h3><div class="meta"><span>${esc(e.v)}</span><span>·</span><span>${BARRIS[e.b]}</span></div><p>${esc(desc(e))}</p><div class="foot"><span class="price ask">${XL.wkI}</span><a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${T[st.lang].more} · ${XL.wkS} ↗</a></div></article>`).join("")+`</div></div>`;}).join("");
+  `<article class="ev"><div class="meta"><span class="time">${e.h}</span><span class="cat">${CATS[e.c][st.lang]}</span>${e.k?`<span class="kid">${XL.kid}</span>`:""}</div><h3>${esc(ttl(e))}</h3><div class="meta"><span>${esc(e.v)}</span><span>·</span><span>${BARRIS[e.b]}</span></div><p>${esc(desc(e))}</p><div class="foot"><span class="price ask">${XL.wkI}</span><a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${T[st.lang].more} · ${esc(e.s||XL.wkS)} ↗</a></div></article>`).join("")+`</div></div>`;}).join("");
 }
 function sheet(o){document.body.classList.toggle("sheet",o);$("filtBtn").setAttribute("aria-expanded",o);if(o)$("sheetClose").focus();}
 $("filtBtn").addEventListener("click",()=>sheet(true));
@@ -396,6 +396,7 @@ render();
 fetch("data/events.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
  UPDATED=d.updated;
  E=(d.events||[]).map((e,i)=>({...e,id:i,acc:e.acc||VENUE_ACC[e.v]||null}));
+ if(Array.isArray(d.weekly)&&d.weekly.length)WEEK=d.weekly;
 }).catch(err=>console.error("No s'ha pogut carregar l'agenda",err)).finally(()=>{LOADED=true;render();});
 </script>
 </body>
