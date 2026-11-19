@@ -47,8 +47,16 @@ HORIZON = TODAY + dt.timedelta(days=120)
 
 # ---------------------------------------------------------------- helpers
 
+ERRORS: dict[str, list[str]] = {}
+
+
 def log(*a):
-    print(*a, file=sys.stderr, flush=True)
+    print(*a, flush=True)
+
+
+def note_err(key: str, msg: str):
+    ERRORS.setdefault(key, []).append(str(msg)[:300])
+    log(f"     {key}: {msg}")
 
 
 def fetch(url: str, accept: str = "*/*") -> bytes:
@@ -246,7 +254,7 @@ def src_diba() -> dict[str, list]:
             out[key] = items
             log(f"OK   {key}: {len(items)}")
         except Exception as ex:  # noqa: BLE001
-            log(f"FAIL {key}: {ex}")
+            note_err(key, f"{type(ex).__name__}: {ex}")
     return out
 
 
@@ -361,7 +369,7 @@ def src_plone() -> dict[str, list]:
                 if rows:
                     break
             except Exception as ex:  # noqa: BLE001
-                log(f"     {key} via {how}: {ex}")
+                note_err(key, f"{how} → {type(ex).__name__}: {ex}")
         if not rows:
             log(f"FAIL {key}: cap via ha funcionat")
             continue
@@ -388,7 +396,7 @@ def src_plone() -> dict[str, list]:
 
 def src_manual():
     if not MANUAL.exists():
-        return [], {}
+        return [], {}, ""
     m = json.loads(MANUAL.read_text("utf-8"))
     evs = [e for e in m.get("events", []) if (e.get("e") or e["d"]) >= TODAY.isoformat()]
     for e in evs:
@@ -398,7 +406,84 @@ def src_manual():
         e.setdefault("p", None)
         e.setdefault("h", "")
         e.setdefault("x", {"ca": ""})
-    return evs, m.get("overrides", {})
+    return evs, m.get("overrides", {}), (m.get("formulari_csv") or "").strip()
+
+
+# ---------------------------------------------------------- source: form
+
+FORM_CATS = {"music": "musica", "teatre": "escena", "escena": "escena", "famil": "familia",
+             "festa": "festa", "tradic": "festa", "taller": "taller", "trobad": "taller",
+             "fira": "fira", "mercat": "fira", "visit": "cultura", "art": "cultura"}
+FORM_ACC = {"cadira": "wheel", "lavabo": "wc", "wc": "wc", "gos": "dog", "bucle": "loop",
+            "signes": "lsc", "audiodesc": "ad", "subt": "sub", "relax": "calm"}
+
+
+def col(row: dict, *keys: str) -> str:
+    """Busca una columna pel començament del títol de la pregunta (sense accents)."""
+    for h, v in row.items():
+        nh = norm(h or "")
+        if any(nh.startswith(norm(k)) for k in keys):
+            return (v or "").strip()
+    return ""
+
+
+def parse_form_date(s: str):
+    s = s.strip()
+    for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d/%m/%y", "%m/%d/%Y"):
+        try:
+            return dt.datetime.strptime(s, fmt)
+        except ValueError:
+            continue
+    return None
+
+
+def src_form(url: str):
+    """Esdeveniments aprovats del formulari (full de Google publicat com a CSV)."""
+    import csv
+    import io
+    if not url:
+        return None
+    try:
+        rows = list(csv.DictReader(io.StringIO(fetch(url, "text/csv").decode("utf-8-sig"))))
+    except Exception as ex:  # noqa: BLE001
+        note_err("form", f"{type(ex).__name__}: {ex}")
+        return None
+    items = []
+    for r in rows:
+        title, d0 = col(r, "nom de l", "nombre del", "titol"), parse_form_date(col(r, "data d'inici", "data inici", "fecha de inicio", "data"))
+        if not title or not d0:
+            continue
+        # Si el full té columna "Aprovat", només es publiquen les files marcades amb "Sí".
+        if any(norm(h or "").startswith(("aprovat", "aprobado")) for h in r):
+            if norm(col(r, "aprovat", "aprobado")) not in ("si", "yes", "x", "ok"):
+                continue
+        d1 = parse_form_date(col(r, "data de fin", "data final", "fecha de fin"))
+        hora = col(r, "hora")[:5]
+        if re.fullmatch(r"\d{1,2}:\d{2}", hora):
+            h, m = map(int, hora.split(":"))
+            d0 = d0.replace(hour=h, minute=m)
+        if (d1 or d0).date() < TODAY:
+            continue
+        cat_raw = norm(col(r, "categoria"))
+        cat = next((v for k, v in FORM_CATS.items() if k in cat_raw), None)
+        venue = col(r, "lloc", "lugar")
+        link = col(r, "enllac", "enlace", "web")
+        if link and not link.startswith("http"):
+            link = "https://" + link
+        org = col(r, "organitz", "organiz") or "Organitzador"
+        ev = make_event(
+            title=title, start=d0, end=d1, venue=venue.split(",")[0], url=link,
+            source=org, desc=col(r, "breu desc", "descrip"), category=cat,
+            kids=True if norm(col(r, "es per a infants", "per a infants", "para ninos")).startswith("si") else None,
+            price=price_for(col(r, "preu", "precio")),
+        )
+        acc_raw = norm(col(r, "accessib", "accesib"))
+        acc = sorted({v for k, v in FORM_ACC.items() if k in acc_raw})
+        if acc:
+            ev["acc"] = {"f": acc, "s": "Declarat per l'organitzador", "u": link}
+        items.append(ev)
+    log(f"OK   form: {len(items)}")
+    return items
 
 
 # ----------------------------------------------------------- translation
@@ -444,7 +529,7 @@ def translate_all(events):
 
 # ------------------------------------------------------------------ main
 
-PRIORITY = ["manual", "plone:culturamataro", "plone:entitats", "plone:civics",
+PRIORITY = ["manual", "form", "plone:culturamataro", "plone:entitats", "plone:civics",
             "diba:actesbiblioteques", "diba:actesmuseus", "diba:escenari"]
 
 
@@ -456,11 +541,16 @@ def main():
     fresh = {}
     fresh.update(src_diba())
     fresh.update(src_plone())
-    manual, overrides = src_manual()
+    manual, overrides, form_url = src_manual()
+    form = src_form(form_url)
+    if form is not None:
+        fresh["form"] = form
 
     by_source, status = {}, {}
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     for key in PRIORITY[1:]:
+        if key == "form" and not form_url:
+            continue
         if key in fresh:
             by_source[key] = fresh[key]
             status[key] = {"ok": True, "n": len(fresh[key]), "at": now}
@@ -468,7 +558,7 @@ def main():
             kept = [e for e in prev_by.get(key, []) if (e.get("e") or e["d"]) >= TODAY.isoformat()]
             by_source[key] = kept
             old = prev.get("status", {}).get(key, {})
-            status[key] = {"ok": False, "n": len(kept), "at": old.get("at")}
+            status[key] = {"ok": False, "n": len(kept), "at": old.get("at"), "err": ERRORS.get(key, [])}
 
     merged, seen = [], set()
     for key in PRIORITY:
