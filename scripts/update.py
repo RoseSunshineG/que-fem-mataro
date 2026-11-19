@@ -259,17 +259,41 @@ PLONE_SITES = {
 }
 
 
+BAD_TITLES = ("indexes all content", "searchabletext")
+
+
+def title_from_url(url: str) -> str:
+    """'copy47_of_mitja-i-ganxet-1' → 'Mitja i ganxet'"""
+    slug = urllib.parse.unquote(url.rstrip("/").rsplit("/", 1)[-1])
+    slug = re.sub(r"^(copy\d*_of_)+", "", slug)
+    slug = re.sub(r"^\d{4}-", "", slug)
+    slug = re.sub(r"-\d+$", "", slug)
+    return slug.replace("-", " ").replace("_", " ").strip().capitalize()
+
+
+def good_title(*cands, url=""):
+    for c in cands:
+        if isinstance(c, str) and c.strip() and not any(b in c.lower() for b in BAD_TITLES):
+            return c.strip()
+    return title_from_url(url)
+
+
+def venue_name(loc: str) -> str:
+    return re.split(r"\s+-\s+|,", loc or "", maxsplit=1)[0].strip()
+
+
 def plone_restapi(base: str):
     q = {
         "portal_type": "Event", "sort_on": "start", "b_size": "300",
         "end.query": TODAY.isoformat(), "end.range": "min",
-        "metadata_fields": ["start", "end", "location", "Subject", "Description", "title"],
+        "metadata_fields": ["start", "end", "location", "Subject", "Description", "Title"],
     }
     url = base.rstrip("/") + "/@search?" + urllib.parse.urlencode(q, doseq=True)
     data = fetch_json(url)
     for it in data.get("items", []):
         yield {
-            "title": it.get("title", ""), "start": parse_dt(it.get("start")), "end": parse_dt(it.get("end")),
+            "title": good_title(it.get("Title"), it.get("title"), url=it.get("@id", "")),
+            "start": parse_dt(it.get("start")), "end": parse_dt(it.get("end")),
             "location": it.get("location") or "", "url": it.get("@id", ""),
             "desc": it.get("Description") or it.get("description") or "",
             "tags": " ".join(it.get("Subject") or []),
@@ -350,7 +374,7 @@ def src_plone() -> dict[str, list]:
             if (e or s).date() < TODAY or s.date() > HORIZON:
                 continue
             items.append(make_event(
-                title=r["title"], start=s, end=e, venue=r["location"].split(",")[0],
+                title=good_title(r["title"], url=r["url"]), start=s, end=e, venue=venue_name(r["location"]),
                 url=r["url"], source=label, desc=r["desc"],
                 category=cat_for(r["title"], r["tags"], r["desc"], r["location"], default=cat or "cultura"),
                 extra_text=r["tags"] + " " + r["desc"],
