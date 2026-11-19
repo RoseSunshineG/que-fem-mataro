@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:09+00:00",
+ "updated": "2026-11-19T22:29+00:00",
  "status": {
   "plone:culturamataro": {
    "ok": false,
@@ -12,27 +12,107 @@
    "at": null
   },
   "plone:civics": {
-   "ok": false,
-   "n": 0,
-   "at": null
+   "ok": true,
+   "n": 300,
+   "at": "2026-11-19T22:29+00:00"
   },
   "diba:actesbiblioteques": {
-   "ok": false,
-   "n": 0,
-   "at": null
+   "ok": true,
+   "n": 24,
+   "at": "2026-11-19T22:29+00:00"
   },
   "diba:actesmuseus": {
-   "ok": false,
+   "ok": true,
    "n": 0,
-   "at": null
+   "at": "2026-11-19T22:29+00:00"
   },
   "diba:escenari": {
-   "ok": false,
+   "ok": true,
    "n": 0,
-   "at": null
+   "at": "2026-11-19T22:29+00:00"
   }
  },
  "events": [
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-10-06",
+   "h": "",
+   "v": "Centre Cívic Rocafonda - c",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/dones-compartint",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-22"
+  },
+  {
+   "t": "JOVES EN JOC",
+   "d": "2026-10-23",
+   "h": "15:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/joves-en-joc-1",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-18"
+  },
+  {
+   "t": "DONES SUPERVIVENTS",
+   "d": "2026-11-02",
+   "h": "09:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/expo-dones-supervivents",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-30"
+  },
+  {
+   "t": "CREA LA TEVA TECNOEMOTICONA",
+   "d": "2026-11-10",
+   "h": "10:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/labs-port%C3%A0tils-novembre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-19"
+  },
+  {
+   "t": "LA PETITA MUNTANYA",
+   "d": "2026-11-10",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/la-petita-novembre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-24"
+  },
   {
    "t": "23a Setmana Cultural de Cerdanyola",
    "d": "2026-11-13",
@@ -56,6 +136,670 @@
    "k": false,
    "p": null,
    "h": ""
+  },
+  {
+   "t": "PUNTS DE LLIBRE DE LA BIBLIOTECA",
+   "d": "2026-11-16",
+   "h": "09:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/expo-punts-de-llibre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-21"
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-19",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy47_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "MIRALL ENDINS",
+   "d": "2026-11-19",
+   "h": "19:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/mirall-endins",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-20",
+   "h": "10:00",
+   "v": "Centre Cívic Molins - c",
+   "b": "molins",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy126_of_creacio-despectacles-de-teatre",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Club Gomet Vermell",
+   "d": "2026-11-20",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/gomet-vermell-novembre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "PUNT DE LLIBRE 29è ANIVERSARI",
+   "d": "2026-11-21",
+   "h": "10:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/presentacio-punt-de-llibre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Storytelling in English!: Betty and the Black Sheep. Seasons",
+   "d": "2026-11-21",
+   "h": "10:30",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda.-hc_storytelling-betty-black-sheep",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-21",
+   "h": "16:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy40_of_ball-dissabtes",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Acte de lliurament del Premi de Poesia Ventura Ametller",
+   "d": "2026-11-21",
+   "h": "19:30",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_premi_ventura_ametller-26",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-23",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy71_of_ioga-6",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-24",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy48_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-25",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy42_of_aula-de-recerca-de-feina",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "BACenJOC",
+   "d": "2026-11-25",
+   "h": "17:00",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_bacenjoc_25-novembre-26",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "L'hora del conte: La Caputxeta forçuda",
+   "d": "2026-11-25",
+   "h": "17:30",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda.-hc_caputxeta-for%C3%A7uda",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-26",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy49_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Concurs literari: Repte màgic Harry Potter",
+   "d": "2026-11-26",
+   "h": "18:00",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda-repte-m%C3%A0gic-harry-potter-2026",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-27",
+   "h": "10:00",
+   "v": "Centre Cívic Molins - c",
+   "b": "molins",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy129_of_creacio-despectacles-de-teatre",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Talking about ...",
+   "d": "2026-11-27",
+   "h": "18:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/talking",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Bibliolab. El joc del samurai, paisatge d’equilibri",
+   "d": "2026-11-28",
+   "h": "11:00",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_bibliolab_el-joc-del-samurai-paisatge-d-equilibri",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-28",
+   "h": "16:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy41_of_ball-dissabtes",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-11-30",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy72_of_ioga-6",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-01",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy50_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-02",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy44_of_aula-de-recerca-de-feina",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "La petita hora del conte: L'estel perdut",
+   "d": "2026-12-02",
+   "h": "17:30",
+   "v": "Biblioteca Antoni Comas",
+   "b": "roca",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_phc_estel-perdut",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-03",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy51_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-04",
+   "h": "10:00",
+   "v": "Centre Cívic Rocafonda - c",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_balls-en-linia-3",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-05",
+   "h": "16:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy42_of_ball-dissabtes",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-07",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_ioga-6",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-08",
+   "h": "09:15",
+   "v": "Centre Cívic Rocafonda - C/ Josep Punsola",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_ioga-matins",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-09",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy46_of_aula-de-recerca-de-feina",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-10",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy52_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-11",
+   "h": "10:00",
+   "v": "Centre Cívic Molins - c",
+   "b": "molins",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_creacio-despectacles-de-teatre",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-12",
+   "h": "16:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy43_of_ball-dissabtes",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-14",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy45_of_ioga-6",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-15",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy53_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Indexes all content in the site",
+   "d": "2026-12-16",
+   "h": "09:30",
+   "v": "Centre Cívic Espai Gatassa - c",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy48_of_aula-de-recerca-de-feina",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Club del Gomet Blau",
+   "d": "2026-12-16",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/gomet-blau-novembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "El secret del tió",
+   "d": "2026-12-16",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/la-petita-novembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Club Gomet Vermell",
+   "d": "2026-12-18",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/gomet-vermell-novembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "La Pompeu en Joc",
+   "d": "2026-12-22",
+   "h": "10:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/la-pompeu-en-joc-vacances-c%C3%B2pia-1-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-23"
+  },
+  {
+   "t": "Contes de Nadal",
+   "d": "2026-12-22",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/hora-del-conte-especial-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "La Pompeu en Joc",
+   "d": "2026-12-28",
+   "h": "10:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/la-pompeu-en-joc-vacances-nadal-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-30"
+  },
+  {
+   "t": "Missió Nadal: crea el teu robot!",
+   "d": "2026-12-29",
+   "h": "18:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/bibliolab-novembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "La Pompeu en Joc",
+   "d": "2027-01-04",
+   "h": "10:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/la-pompeu-en-joc-vacances-nadal-2-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2027-01-07"
   }
  ]
 }
