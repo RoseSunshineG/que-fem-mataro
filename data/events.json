@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T23:30+00:00",
+ "updated": "2026-11-20T12:58+00:00",
  "status": {
   "form": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T23:30+00:00"
+   "at": "2026-11-20T12:58+00:00"
   },
   "plone:culturamataro": {
    "ok": false,
@@ -24,28 +24,28 @@
   },
   "plone:entitats": {
    "ok": true,
-   "n": 47,
-   "at": "2026-11-19T23:30+00:00"
+   "n": 45,
+   "at": "2026-11-20T12:58+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-19T23:30+00:00"
+   "at": "2026-11-20T12:58+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
-   "n": 24,
-   "at": "2026-11-19T23:30+00:00"
+   "n": 22,
+   "at": "2026-11-20T12:58+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T23:30+00:00"
+   "at": "2026-11-20T12:58+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19T23:30+00:00"
+   "at": "2026-11-20T12:58+00:00"
   }
  },
  "events": [
@@ -146,22 +146,6 @@
    "e": "2026-11-30"
   },
   {
-   "t": "CREA LA TEVA TECNOEMOTICONA",
-   "d": "2026-11-10",
-   "h": "10:00",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/labs-port%C3%A0tils-novembre",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   },
-   "e": "2026-11-19"
-  },
-  {
    "t": "LA PETITA MUNTANYA",
    "d": "2026-11-10",
    "h": "17:30",
@@ -232,66 +216,6 @@
     "ca": ""
    },
    "e": "2026-11-21"
-  },
-  {
-   "t": "Presentació del llibre \"Articles polítics de Josep Puig i Cadafalch\"",
-   "d": "2026-11-19",
-   "h": "18:00",
-   "v": "Can Palauet c. d'En Palau",
-   "b": "roca",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/presentacio-del-llibre-articles-politics-de-josep-puig-i-cadafalch",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Conferència \"Bones pràctiques per prevenir l'assetjament\"",
-   "d": "2026-11-19",
-   "h": "19:00",
-   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/conferencia-bones-practiques-per-prevenir-lassetjament",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "MIRALL ENDINS",
-   "d": "2026-11-19",
-   "h": "19:00",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/mirall-endins",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Xerrada - Cuidem les persones per una vida saludable “Insuficiència venosa (varius)” Causes i prevenció, Tractaments i consells",
-   "d": "2026-11-19",
-   "h": "19:00",
-   "v": "Les Esmandies Casal de Barri",
-   "b": "diversos",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/xerrada-cuidem-les-persones-per-una-vida-saludable-201cinsuficiencia-venosa-varius-201d-causes-i-prevencio-tractaments-i-consells",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": ""
-   }
   },
   {
    "t": "Reviu al Centre Cívic Espai Gatassa",
@@ -543,6 +467,21 @@
    "k": false,
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/congres-literari",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Talent Urbà",
+   "d": "2026-11-26",
+   "h": "17:30",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_talent-urba",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -818,6 +757,21 @@
     "ca": "Exposició d'il·lustracions digitals de manga i fantasia"
    },
    "e": "2027-01-09"
+  },
+  {
+   "t": "Xerrada informativa per a les persones usàries del CAP Rocafonda al Centre Cívic Rocafonda",
+   "d": "2026-12-04",
+   "h": "11:00",
+   "v": "Mataró",
+   "b": "diversos",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/xerrada-informativa-per-a-les-persones-usaries-del-cap-rocafonda-al-centre-civic-rocafonda",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Coneix com funciona l’atenció a la ciutadania del CAP Rocafonda i el paper dels professionals administratius en l’acompanyament a la teva salut."
+   }
   },
   {
    "t": "Taller de Poesia",
@@ -1913,7 +1867,7 @@
    "b": "cerda",
    "c": "cultura",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy47_of_mitja-i-ganxet-1",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy49_of_mitja-i-ganxet-1",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1927,7 +1881,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_ioga-3",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy2_of_ioga-3",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Exercicis terapèutics de Ioga"
@@ -1941,7 +1895,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_tai-chi",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy24_of_tai-chi",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1955,7 +1909,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_taller-de-ball-en-linea",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_taller-de-ball-en-linea",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1969,7 +1923,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy5_of_pachwork-avancat",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_pachwork-avancat",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1983,21 +1937,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_cursos-de-catala-de-cnl",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Talent Urbà",
-   "wd": 4,
-   "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy25_of_talent-urba",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy17_of_cursos-de-catala-de-cnl",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2011,7 +1951,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_classes-de-ball-coutry",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy30_of_classes-de-ball-coutry",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2025,7 +1965,7 @@
    "b": "molins",
    "c": "cultura",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy55_of_obrador-poli-art-molins",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy56_of_obrador-poli-art-molins",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2039,7 +1979,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy164_of_formacio",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy168_of_formacio",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2053,7 +1993,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy78_of_ball-urba-infantil",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy79_of_ball-urba-infantil",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2067,7 +2007,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/sevillanes",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_sevillanes",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Curs per aprendre a ballar Sevillanes setmanal dijous"
@@ -2081,7 +2021,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_ioga-6",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_ioga-6",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2095,7 +2035,7 @@
    "b": "diversos",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy5_of_sevillanes-per-a-adults",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy20_of_sevillanes-per-a-adults",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2109,7 +2049,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy4_of_baile-de-zumba",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_baile-de-zumba",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2123,7 +2063,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/gimnastica-2",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_gimnastica-2",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Exercicis de gimnàstica"
