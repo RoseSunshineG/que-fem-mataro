@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20T12:58+00:00",
+ "updated": "2026-11-21T12:43+00:00",
  "status": {
   "form": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-20T12:58+00:00"
+   "at": "2026-11-21T12:43+00:00"
   },
   "plone:culturamataro": {
    "ok": false,
@@ -24,28 +24,28 @@
   },
   "plone:entitats": {
    "ok": true,
-   "n": 45,
-   "at": "2026-11-20T12:58+00:00"
+   "n": 41,
+   "at": "2026-11-21T12:43+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-20T12:58+00:00"
+   "at": "2026-11-21T12:43+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
-   "n": 22,
-   "at": "2026-11-20T12:58+00:00"
+   "n": 21,
+   "at": "2026-11-21T12:43+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-20T12:58+00:00"
+   "at": "2026-11-21T12:43+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-20T12:58+00:00"
+   "at": "2026-11-21T12:43+00:00"
   }
  },
  "events": [
@@ -216,66 +216,6 @@
     "ca": ""
    },
    "e": "2026-11-21"
-  },
-  {
-   "t": "Reviu al Centre Cívic Espai Gatassa",
-   "d": "2026-11-20",
-   "h": "09:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/copy3_of_reviu-al-centre-civic-rocafonda-4",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": "Taller d'autoreparació de la llar"
-   }
-  },
-  {
-   "t": "Club Gomet Vermell",
-   "d": "2026-11-20",
-   "h": "17:30",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/gomet-vermell-novembre",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Actualització en malalties de sensibilització central",
-   "d": "2026-11-20",
-   "h": "18:00",
-   "v": "Centre Civic Espai Gatassa- c. de Josep Montserrat Quadrada",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/actualitzacio-en-malalties-de-sensibilitzacio-central",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": "Xerrada"
-   }
-  },
-  {
-   "t": "Conversa amb Miquel Missé i Elisenda Pascual sobre Tarsius",
-   "d": "2026-11-20",
-   "h": "18:00",
-   "v": "Espai Mataró Connecta",
-   "b": "diversos",
-   "c": "cultura",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/despres-de-tarsius-conversa-amb-miquel-misse",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": "Programació OFF Generació Participa"
-   }
   },
   {
    "t": "PUNT DE LLIBRE 29è ANIVERSARI",
@@ -548,6 +488,21 @@
    }
   },
   {
+   "t": "Talent Urbà",
+   "d": "2026-11-27",
+   "h": "17:30",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_talent-urba",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Talking about ...",
    "d": "2026-11-27",
    "h": "18:00",
@@ -801,6 +756,21 @@
    "s": "Agenda d'entitats",
    "x": {
     "ca": "Conversem, compartim i ens cuidem"
+   }
+  },
+  {
+   "t": "Flamenco i Punt",
+   "d": "2026-12-11",
+   "h": "21:00",
+   "v": "Casal L'Aliança de Mataró",
+   "b": "centre",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy3_of_flamenc-i-punt",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
    }
   },
   {
@@ -2077,7 +2047,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy7_of_balls-en-linia-3",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_balls-en-linia-3",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2091,7 +2061,7 @@
    "b": "molins",
    "c": "escena",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy126_of_creacio-despectacles-de-teatre",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy129_of_creacio-despectacles-de-teatre",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2105,7 +2075,7 @@
    "b": "cerda",
    "c": "musica",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_coral",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy50_of_coral",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2119,7 +2089,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_reforc-de-catala-i-arab",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy16_of_reforc-de-catala-i-arab",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2133,21 +2103,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_classes-de-conversa-dangles-nivell-avancat",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Talent Urbà",
-   "wd": 5,
-   "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy26_of_talent-urba",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy16_of_classes-de-conversa-dangles-nivell-avancat",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2161,22 +2117,8 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy30_of_mindfulness-para-la-salud-i-el-bienestar",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy31_of_mindfulness-para-la-salud-i-el-bienestar",
    "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Flamenco i Punt",
-   "wd": 5,
-   "h": "21:00",
-   "v": "Casal L'Aliança de Mataró",
-   "b": "centre",
-   "c": "cultura",
-   "k": false,
-   "u": "https://entitatsmataro.cat/agenda/flamenc-i-punt",
-   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
