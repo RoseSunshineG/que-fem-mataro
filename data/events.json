@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T12:43+00:00",
+ "updated": "2026-11-22T12:39+00:00",
  "status": {
   "form": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21T12:43+00:00"
+   "at": "2026-11-22T12:39+00:00"
   },
   "plone:culturamataro": {
    "ok": false,
@@ -25,27 +25,27 @@
   "plone:entitats": {
    "ok": true,
    "n": 41,
-   "at": "2026-11-21T12:43+00:00"
+   "at": "2026-11-22T12:39+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-21T12:43+00:00"
+   "at": "2026-11-22T12:39+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
-   "n": 21,
-   "at": "2026-11-21T12:43+00:00"
+   "n": 17,
+   "at": "2026-11-22T12:39+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21T12:43+00:00"
+   "at": "2026-11-22T12:39+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21T12:43+00:00"
+   "at": "2026-11-22T12:39+00:00"
   }
  },
  "events": [
@@ -200,67 +200,6 @@
     "ca": ""
    },
    "e": "2026-11-28"
-  },
-  {
-   "t": "PUNTS DE LLIBRE DE LA BIBLIOTECA",
-   "d": "2026-11-16",
-   "h": "09:30",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/expo-punts-de-llibre",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   },
-   "e": "2026-11-21"
-  },
-  {
-   "t": "PUNT DE LLIBRE 29è ANIVERSARI",
-   "d": "2026-11-21",
-   "h": "10:00",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/presentacio-punt-de-llibre",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Storytelling in English!: Betty and the Black Sheep. Seasons",
-   "d": "2026-11-21",
-   "h": "10:30",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda.-hc_storytelling-betty-black-sheep",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Acte de lliurament del Premi de Poesia Ventura Ametller",
-   "d": "2026-11-21",
-   "h": "19:30",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_premi_ventura_ametller-26",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
   },
   {
    "t": "Concerts a Les Esmandies  \"Il Dolce Far Musica i l'Orquestra Camerata da Capo\"",
@@ -2131,7 +2070,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy40_of_ball-dissabtes",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy41_of_ball-dissabtes",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2145,7 +2084,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_balls-de-salo-1",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_balls-de-salo-1",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""

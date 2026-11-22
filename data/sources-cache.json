@@ -643,36 +643,6 @@
    "e": "2026-12-22"
   },
   {
-   "t": "Ball dissabtes",
-   "d": "2026-11-21",
-   "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy40_of_ball-dissabtes",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Balls de saló",
-   "d": "2026-11-21",
-   "h": "17:15",
-   "v": "Centre Cívic Rocafonda",
-   "b": "roca",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_balls-de-salo-1",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
    "t": "Ioga",
    "d": "2026-11-23",
    "h": "09:30",
@@ -5126,6 +5096,36 @@
    "x": {
     "ca": ""
    }
+  },
+  {
+   "t": "Classes de conversa d'anglès nivell avançat",
+   "d": "2026-12-18",
+   "h": "17:30",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy19_of_classes-de-conversa-dangles-nivell-avancat",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Mindfulness para la salud i el bienestar",
+   "d": "2026-12-18",
+   "h": "19:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy34_of_mindfulness-para-la-salud-i-el-bienestar",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
   }
  ],
  "diba:actesbiblioteques": [
@@ -5139,21 +5139,6 @@
    "k": true,
    "p": null,
    "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_bibliolab_el-joc-del-samurai-paisatge-d-equilibri",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Acte de lliurament del Premi de Poesia Ventura Ametller",
-   "d": "2026-11-21",
-   "h": "19:30",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_premi_ventura_ametller-26",
    "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
@@ -5223,37 +5208,6 @@
    "e": "2026-12-18"
   },
   {
-   "t": "PUNTS DE LLIBRE DE LA BIBLIOTECA",
-   "d": "2026-11-16",
-   "h": "09:30",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/expo-punts-de-llibre",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   },
-   "e": "2026-11-21"
-  },
-  {
-   "t": "PUNT DE LLIBRE 29è ANIVERSARI",
-   "d": "2026-11-21",
-   "h": "10:00",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/presentacio-punt-de-llibre",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
    "t": "Concurs literari: Repte màgic Harry Potter",
    "d": "2026-11-26",
    "h": "18:00",
@@ -5263,21 +5217,6 @@
    "k": true,
    "p": null,
    "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda-repte-m%C3%A0gic-harry-potter-2026",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Storytelling in English!: Betty and the Black Sheep. Seasons",
-   "d": "2026-11-21",
-   "h": "10:30",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda.-hc_storytelling-betty-black-sheep",
    "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
