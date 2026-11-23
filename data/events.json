@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T12:39+00:00",
+ "updated": "2026-11-23T14:43+00:00",
  "status": {
   "form": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-22T12:39+00:00"
+   "at": "2026-11-23T14:43+00:00"
   },
   "plone:culturamataro": {
    "ok": false,
@@ -24,28 +24,28 @@
   },
   "plone:entitats": {
    "ok": true,
-   "n": 41,
-   "at": "2026-11-22T12:39+00:00"
+   "n": 45,
+   "at": "2026-11-23T14:43+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-22T12:39+00:00"
+   "at": "2026-11-23T14:43+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
    "n": 17,
-   "at": "2026-11-22T12:39+00:00"
+   "at": "2026-11-23T14:43+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-22T12:39+00:00"
+   "at": "2026-11-23T14:43+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-22T12:39+00:00"
+   "at": "2026-11-23T14:43+00:00"
   }
  },
  "events": [
@@ -164,26 +164,18 @@
   {
    "t": "23a Setmana Cultural de Cerdanyola",
    "d": "2026-11-13",
-   "e": "2026-11-22",
-   "v": "Diversos indrets",
+   "h": "",
+   "v": "Cerdanyola",
    "b": "cerda",
-   "c": "festa",
-   "u": "https://www.culturamataro.cat/agenda-cultura/2026-23a-setmana-cultural-de-cerdanyola",
-   "s": "Cultura Mataró",
-   "tt": {
-    "es": "23.ª Semana Cultural de Cerdanyola",
-    "en": "23rd Cerdanyola Cultural Week",
-    "fr": "23e Semaine culturelle de Cerdanyola"
-   },
-   "x": {
-    "ca": "Deu dies d'activitats culturals al barri de Cerdanyola.",
-    "es": "Diez días de actividades culturales en el barrio de Cerdanyola.",
-    "en": "Ten days of cultural activities in the Cerdanyola neighbourhood.",
-    "fr": "Dix jours d'activités culturelles dans le quartier de Cerdanyola."
-   },
+   "c": "cultura",
    "k": false,
    "p": null,
-   "h": ""
+   "u": "https://entitatsmataro.cat/agenda/setama-cultural-de-cerdanyola-26",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-11-23"
   },
   {
    "t": "Exposició de pintura, escultura i fotografia",
@@ -202,49 +194,20 @@
    "e": "2026-11-28"
   },
   {
-   "t": "Concerts a Les Esmandies  \"Il Dolce Far Musica i l'Orquestra Camerata da Capo\"",
-   "d": "2026-11-22",
-   "h": "12:00",
-   "v": "Les Esmandies Casal de Barri",
+   "t": "Exposició «Vides Diverses»",
+   "d": "2026-11-23",
+   "h": "09:00",
+   "v": "Espai Mataró Connecta; Plaça de la Muralla 21",
    "b": "diversos",
-   "c": "musica",
+   "c": "cultura",
    "k": false,
    "p": null,
-   "u": "https://entitatsmataro.cat/agenda/concerts-a-les-esmandies-il-dolce-far-musica-i-lorquestra-camerata-da-capo",
+   "u": "https://entitatsmataro.cat/agenda/exposicio-vides-diverses",
    "s": "Agenda d'entitats",
    "x": {
     "ca": ""
-   }
-  },
-  {
-   "t": "Concerts “Il Dolce Far Musicai Musicus, Orquestra de Flautes Dolces del Coll de Barcelona”",
-   "d": "2026-11-22",
-   "h": "12:00",
-   "v": "Les Esmandies Casal de Barri",
-   "b": "diversos",
-   "c": "musica",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/concerts-201cil-dolce-far-musica-i-musicus-orquestra-de-flautes-dolces-del-coll-de-barcelona201d",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Concert d'homenatge a Mn. Manuel Blanch i Puig",
-   "d": "2026-11-22",
-   "h": "19:00",
-   "v": "Teatre Monumental- La Riera",
-   "b": "centre",
-   "c": "musica",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/concert-dhomenatge-a-mn-manuel-blanch-i-puig",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": "Cor Madrigalista de Mataró i Orquestra de Mataró i solistes"
-   }
+   },
+   "e": "2026-12-07"
   },
   {
    "t": "Lletres que sonen",
@@ -412,6 +375,22 @@
    }
   },
   {
+   "t": "Exposició d'art itinerant i d'art d'inclusió",
+   "d": "2026-11-27",
+   "h": "12:00",
+   "v": "CENTRE COMERCIAL MATARÓ PARC I ESPAI MATARÓ CUIDA-CARECITYLAB",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/exposicio-dart-itinerant-dart-inclusio-2",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2027-01-12"
+  },
+  {
    "t": "Postfunció amb Miquel Missé sobre El Gegant del Pi",
    "d": "2026-11-27",
    "h": "12:20",
@@ -577,6 +556,21 @@
    }
   },
   {
+   "t": "La força de l'experiència: construint una ciutat per a totes les edats",
+   "d": "2026-12-01",
+   "h": "18:30",
+   "v": "Espai Mataró Connecta",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/la-forca-de-lexperiencia-construint-una-ciutat-per-a-totes-les-edats-1",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "La petita hora del conte: L'estel perdut",
    "d": "2026-12-02",
    "h": "17:30",
@@ -587,6 +581,21 @@
    "p": null,
    "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_phc_estel-perdut",
    "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Xerrada: Dolor i Analgèsics",
+   "d": "2026-12-03",
+   "h": "17:00",
+   "v": "Casal C.C.Jaume Terradas",
+   "b": "diversos",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/dolor-i-analgesics",
+   "s": "Agenda d'entitats",
    "x": {
     "ca": ""
    }
@@ -665,6 +674,36 @@
    "s": "Agenda d'entitats",
    "x": {
     "ca": "Coneix com funciona l’atenció a la ciutadania del CAP Rocafonda i el paper dels professionals administratius en l’acompanyament a la teva salut."
+   }
+  },
+  {
+   "t": "Circ amb tots els sentits",
+   "d": "2026-12-04",
+   "h": "17:30",
+   "v": "Teatre del Cafè Nou; Carrer de la Riera 123",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/circ-amb-tots-els-sentits-1",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Visita guiada accessible a la Nau Gaudí",
+   "d": "2026-12-05",
+   "h": "17:00",
+   "v": "C de la Cooperativa",
+   "b": "diversos",
+   "c": "escena",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/visita-guiada-accessible-a-la-nau-gaudi-2",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
    }
   },
   {
@@ -802,6 +841,22 @@
    "x": {
     "ca": "3a edició de l'Escola de Salut de Pediatria"
    }
+  },
+  {
+   "t": "Cerdanyola fa Nadal 2026",
+   "d": "2026-12-18",
+   "h": "",
+   "v": "Plaça Isla Cristina",
+   "b": "diversos",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/cerdanyola-fa-nadal-2026",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-20"
   },
   {
    "t": "Club Gomet Vermell",
