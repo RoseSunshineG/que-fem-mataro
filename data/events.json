@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T14:27+00:00",
+ "updated": "2026-11-26T13:57+00:00",
  "status": {
   "form": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-25T14:27+00:00"
+   "at": "2026-11-26T13:57+00:00"
   },
   "plone:culturamataro": {
    "ok": false,
@@ -24,28 +24,28 @@
   },
   "plone:entitats": {
    "ok": true,
-   "n": 47,
-   "at": "2026-11-25T14:27+00:00"
+   "n": 49,
+   "at": "2026-11-26T13:57+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-25T14:27+00:00"
+   "at": "2026-11-26T13:57+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
-   "n": 20,
-   "at": "2026-11-25T14:27+00:00"
+   "n": 24,
+   "at": "2026-11-26T13:57+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-25T14:27+00:00"
+   "at": "2026-11-26T13:57+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-25T14:27+00:00"
+   "at": "2026-11-26T13:57+00:00"
   }
  },
  "events": [
@@ -176,36 +176,6 @@
     "ca": ""
    },
    "e": "2026-12-07"
-  },
-  {
-   "t": "BACenJOC",
-   "d": "2026-11-25",
-   "h": "17:00",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_bacenjoc_25-novembre-26",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "L'hora del conte: La Caputxeta forçuda",
-   "d": "2026-11-25",
-   "h": "17:30",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda.-hc_caputxeta-for%C3%A7uda",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
   },
   {
    "t": "Caminada de Descoberta a Mataró: Ruta fins al Turó de Cerdanyola",
@@ -359,21 +329,6 @@
    }
   },
   {
-   "t": "Talking about ...",
-   "d": "2026-11-27",
-   "h": "18:00",
-   "v": "Biblioteca Pompeu Fabra",
-   "b": "pcentral",
-   "c": "biblio",
-   "k": false,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/talking",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
    "t": "De París a Cerdanyola. Trobada oberta al veïnat",
    "d": "2026-11-27",
    "h": "18:30",
@@ -494,6 +449,21 @@
    }
   },
   {
+   "t": "Cafè i Salut:  Molins-Cirera et cuida",
+   "d": "2026-12-01",
+   "h": "09:30",
+   "v": "Centre Cívic Molins",
+   "b": "molins",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/copy_of_cafe-i-salut-molins-cirera-et-cuida-9",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Parlem de les tecnologies en Salut"
+   }
+  },
+  {
    "t": "Taller de relaxació amb Gong",
    "d": "2026-12-01",
    "h": "17:00",
@@ -504,6 +474,21 @@
    "p": null,
    "u": "https://entitatsmataro.cat/agenda/taller-de-relaxacio-amb-gong-2",
    "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Puig i contes",
+   "d": "2026-12-01",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/hora-del-conte-especial-nadal-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
    }
@@ -539,6 +524,21 @@
    }
   },
   {
+   "t": "Facciamo due chiacchiere",
+   "d": "2026-12-01",
+   "h": "18:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/vens-a-la-tert%C3%BAlia-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "La força de l'experiència: construint una ciutat per a totes les edats",
    "d": "2026-12-01",
    "h": "18:30",
@@ -563,6 +563,36 @@
    "k": true,
    "p": null,
    "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda_phc_estel-perdut",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Talent Urbà",
+   "d": "2026-12-02",
+   "h": "17:30",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_talent-urba",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Vens a la tertúlia?",
+   "d": "2026-12-02",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/talking-c%C3%B2pia-",
    "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
@@ -644,6 +674,21 @@
    }
   },
   {
+   "t": "Lletres amb ploma",
+   "d": "2026-12-03",
+   "h": "18:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/ci-fi-club-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Taula rodona sobre NOMA, les malalties oblidades i el dret a la salut",
    "d": "2026-12-03",
    "h": "18:30",
@@ -716,6 +761,21 @@
    "p": null,
    "u": "https://entitatsmataro.cat/agenda/circ-amb-tots-els-sentits-1",
    "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Club dels Setciències",
+   "d": "2026-12-04",
+   "h": "17:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/gomet-blau-desembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
    }
@@ -887,6 +947,21 @@
    }
   },
   {
+   "t": "Concert per la Diversitat \"La vida i la pau\"",
+   "d": "2026-12-17",
+   "h": "19:30",
+   "v": "Esglèsia de Sant Josep",
+   "b": "diversos",
+   "c": "musica",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/concert-per-la-diversitat-la-vida-i-la-pau",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Cerdanyola fa Nadal 2026",
    "d": "2026-12-18",
    "h": "",
@@ -912,6 +987,21 @@
    "k": false,
    "p": null,
    "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/gomet-vermell-novembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Talking about ...",
+   "d": "2026-12-18",
+   "h": "18:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/talking",
    "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
@@ -958,6 +1048,21 @@
    "p": null,
    "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy5_of_curs-de-monitora-mataro-hivern",
    "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "CI-FI Club",
+   "d": "2026-12-21",
+   "h": "18:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/vens-a-la-tert%C3%BAlia-c%C3%B2pia-1-",
+   "s": "Biblioteques de Mataró",
    "x": {
     "ca": ""
    }
@@ -1684,7 +1789,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy42_of_aula-de-recerca-de-feina",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy44_of_aula-de-recerca-de-feina",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1698,7 +1803,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy71_of_autonomia-de-la-llar",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy73_of_autonomia-de-la-llar",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1712,7 +1817,7 @@
    "b": "molins",
    "c": "escena",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy18_of_taller-de-teatre-comunitari",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy19_of_taller-de-teatre-comunitari",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1726,7 +1831,7 @@
    "b": "cerda",
    "c": "cultura",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy21_of_patchwork-1",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_patchwork-1",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1740,7 +1845,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_curs-de-catala",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_curs-de-catala",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1754,7 +1859,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_cursos-de-catala",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy39_of_cursos-de-catala",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1768,7 +1873,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy55_of_gimdance-1",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy57_of_gimdance-1",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1782,7 +1887,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_reforc-de-catala-i-arab",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy18_of_reforc-de-catala-i-arab",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1796,7 +1901,7 @@
    "b": "cerda",
    "c": "escena",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_taller-radio-teatre",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_taller-radio-teatre",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1810,7 +1915,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_zumba-4",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_zumba-4",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1824,21 +1929,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy73_of_classes-balls-de-salo-en-linea",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Talent Urbà",
-   "wd": 3,
-   "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy27_of_talent-urba",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy74_of_classes-balls-de-salo-en-linea",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1852,7 +1943,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_ioga-4",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_ioga-4",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1866,7 +1957,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy167_of_formacio",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy4_of_formacio",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1880,7 +1971,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy22_of_taller-de-ball-de-salo",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_taller-de-ball-de-salo",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1894,7 +1985,7 @@
    "b": "diversos",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy7_of_reiki-2",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_reiki-2",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1908,7 +1999,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_sevillanes-1",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_sevillanes-1",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -1922,7 +2013,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_salsa",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy29_of_salsa",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Classes de salsa"
