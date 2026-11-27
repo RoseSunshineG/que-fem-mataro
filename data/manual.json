@@ -199,6 +199,72 @@
     "en": "A mystery show where the audience plays detective.",
     "fr": "Un spectacle de mystère où le public mène l'enquête."
    }
+  },
+  {
+   "t": "Xup-xup Sound | Concert de Carles Sanahuja i Ivette Villà",
+   "d": "2026-12-03",
+   "h": "21:00",
+   "v": "Cafè de Mar, Carrer de Santa Rita, 1",
+   "b": "centre",
+   "c": "musica",
+   "k": false,
+   "u": "https://cafedemar.cat/",
+   "s": "Cafè de Mar",
+   "tt": {
+    "es": "Xup-xup Sound | Concierto de Carles Sanahuja e Ivette Villà",
+    "en": "Xup-xup Sound | Carles Sanahuja & Ivette Villà live",
+    "fr": "Xup-xup Sound | Concert de Carles Sanahuja et Ivette Villà"
+   },
+   "x": {
+    "ca": "Concert en directe dins del cicle Xup-xup Sound del Cafè de Mar.",
+    "es": "Concierto en directo dentro del ciclo Xup-xup Sound del Cafè de Mar.",
+    "en": "Live concert in Cafè de Mar's Xup-xup Sound series.",
+    "fr": "Concert live dans le cycle Xup-xup Sound du Cafè de Mar."
+   }
+  },
+  {
+   "t": "Presentació del llibre 'Economia Social i Solidària. El Llegat de Jaume Botey i Vallès'",
+   "d": "2026-12-10",
+   "h": "19:00",
+   "v": "Cafè de Mar, Carrer de Santa Rita, 1",
+   "b": "centre",
+   "c": "cultura",
+   "k": false,
+   "u": "https://cafedemar.cat/",
+   "s": "Cafè de Mar",
+   "tt": {
+    "es": "Presentación del libro «Economía Social y Solidaria. El legado de Jaume Botey i Vallès»",
+    "en": "Book launch: 'Social and Solidarity Economy. The Legacy of Jaume Botey i Vallès'",
+    "fr": "Présentation du livre « Économie sociale et solidaire. L'héritage de Jaume Botey i Vallès »"
+   },
+   "x": {
+    "ca": "Presentació d'un llibre sobre economia social i solidària.",
+    "es": "Presentación de un libro sobre economía social y solidaria.",
+    "en": "Launch of a book on the social and solidarity economy.",
+    "fr": "Présentation d'un livre sur l'économie sociale et solidaire."
+   }
+  },
+  {
+   "t": "Robafaves Open Mic | desembre 2026",
+   "d": "2026-12-17",
+   "h": "20:00",
+   "v": "Cafè de Mar, Carrer de Santa Rita, 1",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://cafedemar.cat/",
+   "s": "Cafè de Mar",
+   "tt": {
+    "es": "Robafaves Open Mic | diciembre 2026",
+    "en": "Robafaves Open Mic | December 2026",
+    "fr": "Robafaves Open Mic | décembre 2026"
+   },
+   "x": {
+    "ca": "Micròfon obert de comèdia amb còmics nous i veterans.",
+    "es": "Micrófono abierto de comedia con cómicos nuevos y veteranos.",
+    "en": "Comedy open mic with new and seasoned comics.",
+    "fr": "Scène ouverte de comédie avec humoristes débutants et confirmés."
+   }
   }
  ],
  "overrides": {}
