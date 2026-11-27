@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T13:57+00:00",
+ "updated": "2026-11-27T12:27+00:00",
  "status": {
   "form": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-26T13:57+00:00"
+   "at": "2026-11-27T12:27+00:00"
   },
   "plone:culturamataro": {
    "ok": false,
@@ -24,28 +24,28 @@
   },
   "plone:entitats": {
    "ok": true,
-   "n": 49,
-   "at": "2026-11-26T13:57+00:00"
+   "n": 51,
+   "at": "2026-11-27T12:27+00:00"
   },
   "plone:civics": {
    "ok": true,
    "n": 300,
-   "at": "2026-11-26T13:57+00:00"
+   "at": "2026-11-27T12:27+00:00"
   },
   "diba:actesbiblioteques": {
    "ok": true,
-   "n": 24,
-   "at": "2026-11-26T13:57+00:00"
+   "n": 26,
+   "at": "2026-11-27T12:27+00:00"
   },
   "diba:actesmuseus": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-26T13:57+00:00"
+   "at": "2026-11-27T12:27+00:00"
   },
   "diba:escenari": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-26T13:57+00:00"
+   "at": "2026-11-27T12:27+00:00"
   }
  },
  "events": [
@@ -176,66 +176,6 @@
     "ca": ""
    },
    "e": "2026-12-07"
-  },
-  {
-   "t": "Caminada de Descoberta a Mataró: Ruta fins al Turó de Cerdanyola",
-   "d": "2026-11-26",
-   "h": "09:30",
-   "v": "Avinguda Amèrica amb Avinguda Perú",
-   "b": "diversos",
-   "c": "cultura",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/caminada-de-descoberta-a-mataro-ruta-fins-al-turo-de-cerdanyola",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": "Una nova oportunitat per descobrir el patrimoni natural, paisatgístic i urbà de Mataró a través d’un itinerari guiat pels barri de Rocafonda i el seu entorn."
-   }
-  },
-  {
-   "t": "Congrés literari",
-   "d": "2026-11-26",
-   "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/congres-literari",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Talent Urbà",
-   "d": "2026-11-26",
-   "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_talent-urba",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Concurs literari: Repte màgic Harry Potter",
-   "d": "2026-11-26",
-   "h": "18:00",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda-repte-m%C3%A0gic-harry-potter-2026",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
   },
   {
    "t": "Vacuna't contra la grip i la Covid-19",
@@ -434,6 +374,29 @@
    }
   },
   {
+   "t": "Màgia de prop (humor, teatre i màgia)",
+   "d": "2026-11-28",
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "tt": {
+    "es": "Magia de cerca (humor, teatro y magia)",
+    "en": "Close-up magic (comedy, theatre and magic)",
+    "fr": "Magie rapprochée (humour, théâtre et magie)"
+   },
+   "x": {
+    "ca": "Màgia a pocs centímetres del públic, amb humor i teatre.",
+    "es": "Magia a pocos centímetros del público, con humor y teatro.",
+    "en": "Magic just inches from the audience, with comedy and theatre.",
+    "fr": "De la magie à quelques centimètres du public, avec humour et théâtre."
+   },
+   "p": null
+  },
+  {
    "t": "Discconcert",
    "d": "2026-11-29",
    "h": "17:00",
@@ -554,6 +517,22 @@
    }
   },
   {
+   "t": "Tramvies",
+   "d": "2026-12-02",
+   "h": "09:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/expo-dones-supervivents-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2027-01-13"
+  },
+  {
    "t": "La petita hora del conte: L'estel perdut",
    "d": "2026-12-02",
    "h": "17:30",
@@ -659,6 +638,21 @@
    }
   },
   {
+   "t": "Obertura al canvi. L'art de viure el present",
+   "d": "2026-12-03",
+   "h": "18:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/obertura-al-canvi-lart-de-viure-el-present-2",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Taller art de viure",
    "d": "2026-12-03",
    "h": "18:00",
@@ -702,6 +696,29 @@
    "x": {
     "ca": ""
    }
+  },
+  {
+   "t": "Robafaves Open Mic Comèdia (taquilla inversa)",
+   "d": "2026-12-03",
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "tt": {
+    "es": "Robafaves Open Mic Comedia (taquilla inversa)",
+    "en": "Robafaves Comedy Open Mic (pay what you want)",
+    "fr": "Robafaves Open Mic Comédie (prix libre)"
+   },
+   "x": {
+    "ca": "Micròfon obert de comèdia. Pagues el que vulguis en acabar.",
+    "es": "Micrófono abierto de comedia. Pagas lo que quieras al final.",
+    "en": "Comedy open mic. Pay what you want at the end.",
+    "fr": "Scène ouverte de comédie. Vous payez ce que vous voulez à la fin."
+   },
+   "p": "Taquilla inversa"
   },
   {
    "t": "Arcana",
@@ -749,6 +766,22 @@
    "x": {
     "ca": "Coneix com funciona l’atenció a la ciutadania del CAP Rocafonda i el paper dels professionals administratius en l’acompanyament a la teva salut."
    }
+  },
+  {
+   "t": "Càpsules TIC. Informàtica per a adults",
+   "d": "2026-12-04",
+   "h": "12:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/c%C3%A0psules-tic-desembre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-18"
   },
   {
    "t": "Circ amb tots els sentits",
@@ -811,6 +844,29 @@
    }
   },
   {
+   "t": "Magno, el mentalista",
+   "d": "2026-12-05",
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "tt": {
+    "es": "Magno, el mentalista",
+    "en": "Magno, the mentalist",
+    "fr": "Magno, le mentaliste"
+   },
+   "x": {
+    "ca": "Espectacle de mentalisme que juga amb la ment del públic.",
+    "es": "Espectáculo de mentalismo que juega con la mente del público.",
+    "en": "A mentalism show that plays with the audience's minds.",
+    "fr": "Un spectacle de mentalisme qui joue avec l'esprit du public."
+   },
+   "p": null
+  },
+  {
    "t": "Taller de Poesia",
    "d": "2026-12-10",
    "h": "18:30",
@@ -854,6 +910,29 @@
    "x": {
     "ca": ""
    }
+  },
+  {
+   "t": "Cabaret de circ La Forzuda",
+   "d": "2026-12-12",
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "tt": {
+    "es": "Cabaret de circo La Forzuda",
+    "en": "La Forzuda circus cabaret",
+    "fr": "Cabaret de cirque La Forzuda"
+   },
+   "x": {
+    "ca": "Cabaret amb números de circ i humor.",
+    "es": "Cabaret con números de circo y humor.",
+    "en": "Cabaret with circus acts and comedy.",
+    "fr": "Cabaret avec numéros de cirque et humour."
+   },
+   "p": null
   },
   {
    "t": "Concert “Al voltant de Nadal”",
@@ -993,6 +1072,21 @@
    }
   },
   {
+   "t": "BIT Club. Informàtica per a infants",
+   "d": "2026-12-18",
+   "h": "18:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/c%C3%A0psules-tic-desembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Talking about ...",
    "d": "2026-12-18",
    "h": "18:00",
@@ -1038,19 +1132,27 @@
    }
   },
   {
-   "t": "Curs de monitora Mataró hivern",
-   "d": "2026-12-20",
-   "h": "10:00",
-   "v": "Centre Cívic Cabot i Barba",
+   "t": "2x2 Impro (improvisació i humor)",
+   "d": "2026-12-19",
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
    "b": "centre",
-   "c": "taller",
+   "c": "escena",
    "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy5_of_curs-de-monitora-mataro-hivern",
-   "s": "Xarxa d'Equipaments Cívics",
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "tt": {
+    "es": "2x2 Impro (improvisación y humor)",
+    "en": "2x2 Impro (improv and comedy)",
+    "fr": "2x2 Impro (improvisation et humour)"
+   },
    "x": {
-    "ca": ""
-   }
+    "ca": "Teatre d'improvisació amb escenes creades al moment.",
+    "es": "Teatro de improvisación con escenas creadas al momento.",
+    "en": "Improv theatre with scenes made up on the spot.",
+    "fr": "Théâtre d'improvisation avec des scènes créées sur le moment."
+   },
+   "p": null
   },
   {
    "t": "CI-FI Club",
@@ -1066,6 +1168,29 @@
    "x": {
     "ca": ""
    }
+  },
+  {
+   "t": "Bon profit, detectius! Misteri al circ",
+   "d": "2026-12-21",
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "tt": {
+    "es": "¡Buen provecho, detectives! Misterio en el circo",
+    "en": "Bon appétit, detectives! Mystery at the circus",
+    "fr": "Bon appétit, détectives ! Mystère au cirque"
+   },
+   "x": {
+    "ca": "Espectacle de misteri en què el públic fa de detectiu.",
+    "es": "Espectáculo de misterio en el que el público hace de detective.",
+    "en": "A mystery show where the audience plays detective.",
+    "fr": "Un spectacle de mystère où le public mène l'enquête."
+   },
+   "p": null
   },
   {
    "t": "La Pompeu en Joc",
@@ -1099,6 +1224,36 @@
    }
   },
   {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-24",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy12_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-28",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "La Pompeu en Joc",
    "d": "2026-12-28",
    "h": "10:30",
@@ -1115,6 +1270,21 @@
    "e": "2026-12-30"
   },
   {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-29",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy4_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
    "t": "Missió Nadal: crea el teu robot!",
    "d": "2026-12-29",
    "h": "18:00",
@@ -1125,6 +1295,21 @@
    "p": null,
    "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/bibliolab-novembre-c%C3%B2pia-",
    "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-30",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
    }
@@ -2006,6 +2191,28 @@
    }
   },
   {
+   "t": "English Stand Up Comedy",
+   "wd": 3,
+   "h": "20:00",
+   "v": "La Forzuda Pizza i Circ, Carrer de Sant Pere, 31",
+   "b": "centre",
+   "c": "escena",
+   "k": false,
+   "u": "https://www.instagram.com/laforzudapizzaicirc/",
+   "s": "La Forzuda Pizza i Circ",
+   "x": {
+    "ca": "Nit de stand-up comedy en anglès.",
+    "es": "Noche de stand-up comedy en inglés.",
+    "en": "A night of stand-up comedy in English.",
+    "fr": "Soirée de stand-up en anglais."
+   },
+   "tt": {
+    "es": "English Stand Up Comedy",
+    "en": "English Stand Up Comedy",
+    "fr": "English Stand Up Comedy"
+   }
+  },
+  {
    "t": "Salsa",
    "wd": 3,
    "h": "20:30",
@@ -2027,7 +2234,7 @@
    "b": "cerda",
    "c": "cultura",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy49_of_mitja-i-ganxet-1",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy51_of_mitja-i-ganxet-1",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2041,7 +2248,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy2_of_ioga-3",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy3_of_ioga-3",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Exercicis terapèutics de Ioga"
@@ -2055,7 +2262,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy24_of_tai-chi",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy25_of_tai-chi",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2069,7 +2276,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_taller-de-ball-en-linea",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy24_of_taller-de-ball-en-linea",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2083,7 +2290,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_pachwork-avancat",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_pachwork-avancat",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2097,7 +2304,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy17_of_cursos-de-catala-de-cnl",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy19_of_cursos-de-catala-de-cnl",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2111,7 +2318,7 @@
    "b": "centre",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy30_of_classes-de-ball-coutry",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy31_of_classes-de-ball-coutry",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2125,7 +2332,7 @@
    "b": "molins",
    "c": "cultura",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy56_of_obrador-poli-art-molins",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy57_of_obrador-poli-art-molins",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2139,7 +2346,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy168_of_formacio",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_formacio",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2153,7 +2360,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy79_of_ball-urba-infantil",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy80_of_ball-urba-infantil",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2167,7 +2374,7 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_sevillanes",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_sevillanes",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Curs per aprendre a ballar Sevillanes setmanal dijous"
@@ -2181,7 +2388,7 @@
    "b": "cerda",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_ioga-6",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_ioga-6",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2195,7 +2402,7 @@
    "b": "diversos",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy20_of_sevillanes-per-a-adults",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_sevillanes-per-a-adults",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2209,7 +2416,7 @@
    "b": "roca",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_baile-de-zumba",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_baile-de-zumba",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": ""
@@ -2223,10 +2430,24 @@
    "b": "boet",
    "c": "taller",
    "k": false,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_gimnastica-2",
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy7_of_gimnastica-2",
    "s": "Xarxa d'Equipaments Cívics",
    "x": {
     "ca": "Exercicis de gimnàstica"
+   }
+  },
+  {
+   "t": "Cafè Comunitari",
+   "wd": 5,
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "u": "https://entitatsmataro.cat/agenda/cafe-comunitari-11",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Conversem, compartim i ens cuidem"
    }
   },
   {
@@ -2367,6 +2588,20 @@
    "s": "Agenda d'entitats",
    "x": {
     "ca": "Futbol Mascuí i Femení // La lliga 2026-27."
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "wd": 0,
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy5_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
    }
   },
   {

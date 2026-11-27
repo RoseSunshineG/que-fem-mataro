@@ -83,21 +83,6 @@
    "e": "2026-12-07"
   },
   {
-   "t": "Caminada de Descoberta a Mataró: Ruta fins al Turó de Cerdanyola",
-   "d": "2026-11-26",
-   "h": "09:30",
-   "v": "Avinguda Amèrica amb Avinguda Perú",
-   "b": "diversos",
-   "c": "cultura",
-   "k": false,
-   "p": null,
-   "u": "https://entitatsmataro.cat/agenda/caminada-de-descoberta-a-mataro-ruta-fins-al-turo-de-cerdanyola",
-   "s": "Agenda d'entitats",
-   "x": {
-    "ca": "Una nova oportunitat per descobrir el patrimoni natural, paisatgístic i urbà de Mataró a través d’un itinerari guiat pels barri de Rocafonda i el seu entorn."
-   }
-  },
-  {
    "t": "Vacuna't contra la grip i la Covid-19",
    "d": "2026-11-27",
    "h": "09:00",
@@ -366,6 +351,21 @@
    "s": "Agenda d'entitats",
    "x": {
     "ca": "Taller d'autoreparació d'aparells elèctrics i electrònics"
+   }
+  },
+  {
+   "t": "Obertura al canvi. L'art de viure el present",
+   "d": "2026-12-03",
+   "h": "18:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/obertura-al-canvi-lart-de-viure-el-present-2",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": ""
    }
   },
   {
@@ -719,6 +719,21 @@
    }
   },
   {
+   "t": "Cafè Comunitari",
+   "d": "2027-02-12",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/cafe-comunitari-11",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Conversem, compartim i ens cuidem"
+   }
+  },
+  {
    "t": "Cicle de música de cambra La Modesta",
    "d": "2027-02-13",
    "h": "18:30",
@@ -747,6 +762,21 @@
    "x": {
     "ca": "3a edició de l'Escola de Salut de Pediatria"
    }
+  },
+  {
+   "t": "Cafè Comunitari",
+   "d": "2027-03-12",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa (C. de Josep Monserrat Cuadrada",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://entitatsmataro.cat/agenda/cafe-comunitari-12",
+   "s": "Agenda d'entitats",
+   "x": {
+    "ca": "Conversem, compartim i ens cuidem"
+   }
   }
  ],
  "plone:civics": [
@@ -765,261 +795,6 @@
     "ca": ""
    },
    "e": "2026-12-22"
-  },
-  {
-   "t": "Mitja i ganxet",
-   "d": "2026-11-26",
-   "h": "09:00",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "cultura",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy49_of_mitja-i-ganxet-1",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Ioga dijous matí",
-   "d": "2026-11-26",
-   "h": "09:30",
-   "v": "Centre Cívic Pla d'en Boet",
-   "b": "boet",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy2_of_ioga-3",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": "Exercicis terapèutics de Ioga"
-   }
-  },
-  {
-   "t": "Taller de Ball en Línea",
-   "d": "2026-11-26",
-   "h": "10:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy23_of_taller-de-ball-en-linea",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Tai Chi",
-   "d": "2026-11-26",
-   "h": "10:30",
-   "v": "Centre Cívic Cabot i Barba",
-   "b": "centre",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy24_of_tai-chi",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Pachwork avançat",
-   "d": "2026-11-26",
-   "h": "15:00",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_pachwork-avancat",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Congrés literari",
-   "d": "2026-11-26",
-   "h": "16:00",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/congres-literari",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Cursos de català de CNL",
-   "d": "2026-11-26",
-   "h": "16:30",
-   "v": "Centre Civíc Cerdanyola",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy17_of_cursos-de-catala-de-cnl",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Talent Urbà",
-   "d": "2026-11-26",
-   "h": "17:30",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_talent-urba",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Classes de ball Country",
-   "d": "2026-11-26",
-   "h": "18:00",
-   "v": "Centre Cívic Cabot i Barba",
-   "b": "centre",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy30_of_classes-de-ball-coutry",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Obrador Poli-Art Molins",
-   "d": "2026-11-26",
-   "h": "18:00",
-   "v": "Centre Cívic Molins",
-   "b": "molins",
-   "c": "cultura",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy56_of_obrador-poli-art-molins",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Sevillanes",
-   "d": "2026-11-26",
-   "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet",
-   "b": "boet",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_sevillanes",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": "Curs per aprendre a ballar Sevillanes setmanal dijous"
-   }
-  },
-  {
-   "t": "Formació",
-   "d": "2026-11-26",
-   "h": "18:30",
-   "v": "Centre Cívic Pla d'en Boet",
-   "b": "boet",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy168_of_formacio",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Reiki",
-   "d": "2026-11-26",
-   "h": "18:30",
-   "v": "Centre Cívic Rocafonda",
-   "b": "roca",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy79_of_ball-urba-infantil",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Sevillanes per a adults",
-   "d": "2026-11-26",
-   "h": "19:00",
-   "v": "Plaça de Tirant lo Blanc",
-   "b": "diversos",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy20_of_sevillanes-per-a-adults",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Ioga",
-   "d": "2026-11-26",
-   "h": "19:00",
-   "v": "Centre Cívic Espai Gatassa",
-   "b": "cerda",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy14_of_ioga-6",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
-  },
-  {
-   "t": "Gimnàstica",
-   "d": "2026-11-26",
-   "h": "20:00",
-   "v": "Centre Cívic Pla d'en Boet",
-   "b": "boet",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_gimnastica-2",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": "Exercicis de gimnàstica"
-   }
-  },
-  {
-   "t": "Ball de zumba",
-   "d": "2026-11-26",
-   "h": "20:00",
-   "v": "Centre Cívic Rocafonda",
-   "b": "roca",
-   "c": "taller",
-   "k": false,
-   "p": null,
-   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy8_of_baile-de-zumba",
-   "s": "Xarxa d'Equipaments Cívics",
-   "x": {
-    "ca": ""
-   }
   },
   {
    "t": "Creació d'espectacles de teatre",
@@ -5250,6 +5025,261 @@
    "x": {
     "ca": ""
    }
+  },
+  {
+   "t": "Reiki",
+   "d": "2026-12-23",
+   "h": "19:00",
+   "v": "Mataró",
+   "b": "diversos",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_reiki-2",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Salsa",
+   "d": "2026-12-23",
+   "h": "20:30",
+   "v": "Centre Cívic Rocafonda",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy3_of_salsa",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": "Classes de salsa"
+   }
+  },
+  {
+   "t": "Mitja i ganxet",
+   "d": "2026-12-24",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy56_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Ioga dijous mati",
+   "d": "2026-12-24",
+   "h": "09:30",
+   "v": "Centre Cívic Pla d'en Boet",
+   "b": "boet",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy10_of_ioga-3",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": "Exercicis terapèutics de Ioga"
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-24",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy12_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Tai Chi",
+   "d": "2026-12-24",
+   "h": "10:30",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_tai-chi",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-27",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy7_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-28",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy9_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Mindfulness",
+   "d": "2026-12-28",
+   "h": "10:15",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy28_of_mindfulness-2",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Creació d'espectacles de teatre",
+   "d": "2026-12-28",
+   "h": "11:15",
+   "v": "Centre Cívic Molins",
+   "b": "molins",
+   "c": "escena",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy16_of_creacio-despectacles-de-teatre",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Mitja i ganxet",
+   "d": "2026-12-29",
+   "h": "09:00",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy57_of_mitja-i-ganxet-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Ioga matins",
+   "d": "2026-12-29",
+   "h": "09:15",
+   "v": "Centre Cívic Rocafonda",
+   "b": "roca",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy12_of_ioga-matins",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Classes de conversa d'anglès nivell intermedi",
+   "d": "2026-12-29",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy34_of_classes-de-conversa-dangles-nivell-intermedi",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Classes de balls de saló en línea",
+   "d": "2026-12-29",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy15_of_classes-balls-de-salo-en-linea",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-29",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy4_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Dibuix i pintura",
+   "d": "2026-12-29",
+   "h": "10:30",
+   "v": "Centre Cívic Espai Gatassa",
+   "b": "cerda",
+   "c": "cultura",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy13_of_dibuix-i-pintura-1",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Curs de monitora Mataró hivern",
+   "d": "2026-12-30",
+   "h": "10:00",
+   "v": "Centre Cívic Cabot i Barba",
+   "b": "centre",
+   "c": "taller",
+   "k": false,
+   "p": null,
+   "u": "https://www.mataro.cat/sites/xarxa-dequipaments-civics-xec/agenda/copy11_of_curs-de-monitora-mataro-hivern",
+   "s": "Xarxa d'Equipaments Cívics",
+   "x": {
+    "ca": ""
+   }
   }
  ],
  "diba:actesbiblioteques": [
@@ -5314,21 +5344,6 @@
     "ca": ""
    },
    "e": "2026-12-18"
-  },
-  {
-   "t": "Concurs literari: Repte màgic Harry Potter",
-   "d": "2026-11-26",
-   "h": "18:00",
-   "v": "Biblioteca Antoni Comas",
-   "b": "roca",
-   "c": "biblio",
-   "k": true,
-   "p": null,
-   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/8397079/agenda-repte-m%C3%A0gic-harry-potter-2026",
-   "s": "Biblioteques de Mataró",
-   "x": {
-    "ca": ""
-   }
   },
   {
    "t": "La petita hora del conte: L'estel perdut",
@@ -5617,6 +5632,53 @@
    "x": {
     "ca": ""
    }
+  },
+  {
+   "t": "BIT Club. Informàtica per a infants",
+   "d": "2026-12-18",
+   "h": "18:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": true,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/c%C3%A0psules-tic-desembre-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   }
+  },
+  {
+   "t": "Càpsules TIC. Informàtica per a adults",
+   "d": "2026-12-04",
+   "h": "12:00",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/c%C3%A0psules-tic-desembre",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2026-12-18"
+  },
+  {
+   "t": "Tramvies",
+   "d": "2026-12-02",
+   "h": "09:30",
+   "v": "Biblioteca Pompeu Fabra",
+   "b": "pcentral",
+   "c": "biblio",
+   "k": false,
+   "p": null,
+   "u": "https://bibliotecavirtual.diba.cat/detall-esdeveniment/-/contingut/348608/expo-dones-supervivents-c%C3%B2pia-",
+   "s": "Biblioteques de Mataró",
+   "x": {
+    "ca": ""
+   },
+   "e": "2027-01-13"
   }
  ],
  "diba:actesmuseus": [],
